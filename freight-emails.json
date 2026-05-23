@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T15:53:52Z",
+  "updated": "2026-05-23T16:08:48Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKB1AAA=",
@@ -24,16 +24,16 @@
       "from": {
         "emailAddress": {
           "address": "info@saleboosters24.com",
-          "name": "Verisure partner"
+          "name": "Verisure Partner"
         }
       },
       "receivedDateTime": "2026-05-23T14:54:14.000Z",
-      "bodyPreview": "U ontvangt niet vaak e-mail van info@saleboosters24.com. Ontdek waarom dit belangrijk is\r\n\r\nAls de e-mail niet correct wordt weergegeven, klik hier\r\n\r\nDeze e-mail werd verstuurd door een partner van Verisure NV\r\n\r\nHoe kan ik van deze promotie profiteren?",
+      "bodyPreview": "Als de e-mail niet correct wordt weergegeven, klik hier\r\nDeze e-mail werd verstuurd door een partner van Verisure NV\r\nHoe kan ik van deze promotie profiteren?",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKB0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "JUNK"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnIAAA=",
@@ -45,7 +45,7 @@
         }
       },
       "receivedDateTime": "2026-05-23T14:51:46.000Z",
-      "bodyPreview": "@JeffSegers, a personal access token was created on your account.\r\n\r\nHey JeffSegers!\r\n\r\nA fine-grained personal access token (freight-watch-deploy) was recently added to your account.\r\n\r\nView your token\r\n\r\nYour security audit log",
+      "bodyPreview": "@JeffSegers, a personal access token was created on your account.\r\n\r\nHey JeffSegers!\r\n\r\nA fine-grained personal access token (freight-watch-deploy) was recently added to your account.",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -79,12 +79,12 @@
         }
       },
       "receivedDateTime": "2026-05-23T13:11:55.000Z",
-      "bodyPreview": "Review These Messages\r\n1 messages are being held for you to review as of 23/05/2026 13:11:41 (UTC).\r\nReview them within 15 days of the received date by going to the Quarantine page in the Security Center.",
+      "bodyPreview": "Review These Messages\r\n1 messages are being held for you to review as of 23/05/2026 13:11:41 (UTC).",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb4%2F8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "JUNK"
+      "_category": "OTHER"
     }
   ]
 }
