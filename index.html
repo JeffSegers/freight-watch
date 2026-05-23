@@ -283,10 +283,9 @@ const msalInstance = new msal.PublicClientApplication({
   }
 });
 
-const SCOPES = ['User.Read', 'Mail.Read', 'Mail.Read.Shared', 'Chat.ReadWrite', 'ChatMessage.Send'];
+const SCOPES = ['User.Read', 'Mail.Read', 'Mail.Read.Shared'];
 
 let currentAccount = null;
-let selfChatId = null;
 let allEmails = [];
 let emailMap  = {};
 let activeFilter = localStorage.getItem('fw_filter') || 'ALL';
@@ -438,92 +437,36 @@ function classify(email) {
   return 'OTHER';
 }
 
-// ── Teams self-chat ───────────────────────────────────────────────────────────
+// ── Teams dispatch via deep link ──────────────────────────────────────────────
+// Opens Teams with a pre-filled message — no admin consent required.
 
-async function getSelfChatId(token) {
-  if (selfChatId) return selfChatId;
+function dispatchToTeams(action, email) {
+  const mailboxLabel = email._mailbox === 'pets'
+    ? APP_CONFIG.petsMailbox
+    : APP_CONFIG.jeffMailbox;
 
-  // Get my user ID
-  const me = await graphGet('/me?$select=id', token);
+  const actionLine = action === 'quote'
+    ? '💬 Create a quote from this email:'
+    : '📦 Create a shipment from this email:';
 
-  // Create or retrieve self-chat
-  try {
-    const chat = await graphPost('/chats', {
-      chatType: 'oneOnOne',
-      members: [
-        {
-          '@odata.type': '#microsoft.graph.aadUserConversationMember',
-          roles: ['owner'],
-          'user@odata.bind': `https://graph.microsoft.com/v1.0/users/${me.id}`
-        },
-        {
-          '@odata.type': '#microsoft.graph.aadUserConversationMember',
-          roles: ['owner'],
-          'user@odata.bind': `https://graph.microsoft.com/v1.0/users/${me.id}`
-        }
-      ]
-    }, token);
-    selfChatId = chat.id;
-    return selfChatId;
-  } catch (e) {
-    // Fallback: search existing oneOnOne chats
-    const chats = await graphGet(`/me/chats?$filter=chatType eq 'oneOnOne'&$expand=members&$top=50`, token);
-    for (const chat of (chats.value || [])) {
-      const members = chat.members || [];
-      const ids = new Set(members.map(m => m.userId));
-      if (ids.size === 1) { // only one unique user = self-chat
-        selfChatId = chat.id;
-        return selfChatId;
-      }
-    }
-    throw new Error('Could not create or find Teams self-chat');
-  }
-}
+  const msgBody = [
+    `🚚 Freight Watch — dispatched from phone`,
+    ``,
+    actionLine,
+    ``,
+    `Subject: ${email.subject || '(no subject)'}`,
+    `From: ${email.from?.emailAddress?.address || 'unknown'}`,
+    `Mailbox: ${mailboxLabel}`,
+    `Received: ${new Date(email.receivedDateTime).toLocaleString('en-GB')}`,
+    email.bodyPreview ? `Preview: ${email.bodyPreview.slice(0, 300)}` : '',
+    `Email ID: ${email.id}`,
+  ].filter(Boolean).join('\n');
 
-async function dispatchToTeams(action, email) {
-  const btn = document.querySelector(`[data-dispatch="${email.id}-${action}"]`);
-  if (btn) { btn.textContent = '…'; btn.disabled = true; }
+  // Teams deep link — opens Teams app (mobile or desktop) with message pre-filled
+  const teamsUrl = `https://teams.microsoft.com/l/chat/0/0?users=${encodeURIComponent(APP_CONFIG.jeffMailbox)}&message=${encodeURIComponent(msgBody)}`;
+  window.open(teamsUrl, '_blank');
 
-  try {
-    const token  = await getToken();
-    const chatId = await getSelfChatId(token);
-
-    const mailboxLabel = email._mailbox === 'pets'
-      ? APP_CONFIG.petsMailbox
-      : APP_CONFIG.jeffMailbox;
-
-    const actionLine = action === 'quote'
-      ? '💬 **Create a quote** from this email:'
-      : '📦 **Create a shipment** from this email:';
-
-    const msgBody = [
-      `🚚 *Freight Watch* — dispatched from phone`,
-      ``,
-      actionLine,
-      ``,
-      `**Subject:** ${email.subject || '(no subject)'}`,
-      `**From:** ${email.from?.emailAddress?.address || 'unknown'}`,
-      `**Mailbox:** ${mailboxLabel}`,
-      `**Received:** ${new Date(email.receivedDateTime).toLocaleString('en-GB')}`,
-      email.bodyPreview ? `**Preview:** ${email.bodyPreview.slice(0, 300)}` : '',
-      `**Email ID:** ${email.id}`,
-    ].filter(Boolean).join('\n');
-
-    await graphPost(`/chats/${chatId}/messages`, {
-      body: { contentType: 'text', content: msgBody }
-    }, token);
-
-    showToast(`✓ Sent to Teams — Cowork will pick it up`, 'success');
-    if (btn) { btn.textContent = action === 'quote' ? '💬 Sent!' : '📦 Sent!'; }
-
-  } catch (e) {
-    console.error('Dispatch error:', e);
-    showToast('Failed to send: ' + (e.message || e), 'error');
-    if (btn) {
-      btn.textContent = action === 'quote' ? '💬 Quote' : '📦 Shipment';
-      btn.disabled = false;
-    }
-  }
+  showToast('Teams opened — just tap Send!', 'success');
 }
 
 // ── Render ────────────────────────────────────────────────────────────────────
@@ -695,4 +638,4 @@ init();
 </script>
 </body>
 </html>
-                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
