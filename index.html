@@ -12,10 +12,6 @@
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icon-180.svg">
 
-  <!-- MSAL.js for Microsoft login -->
-  <script src="https://cdn.jsdelivr.net/npm/@azure/msal-browser@2.38.3/lib/msal-browser.min.js"
-    crossorigin="anonymous"></script>
-
   <style>
     /* ── Reset & base ── */
     :root {
@@ -38,32 +34,6 @@
       min-height: 100vh;
       padding-bottom: env(safe-area-inset-bottom);
     }
-
-    /* ── Login screen ── */
-    #login-screen {
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      min-height: 100vh;
-      padding: 32px 24px;
-      text-align: center;
-    }
-    .login-logo  { font-size: 64px; margin-bottom: 20px; }
-    .login-title { font-size: 26px; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
-    .login-sub   { font-size: 15px; color: var(--muted); margin-bottom: 40px; line-height: 1.5; }
-    .login-btn {
-      background: var(--navy);
-      color: white;
-      border: none;
-      padding: 14px 36px;
-      border-radius: 14px;
-      font-size: 16px;
-      font-weight: 600;
-      cursor: pointer;
-      display: flex; align-items: center; gap: 10px;
-      box-shadow: 0 4px 14px rgba(15,39,68,0.35);
-    }
-    .login-btn:active { opacity: 0.85; }
-    .ms-logo { width: 20px; height: 20px; }
 
     /* ── Header ── */
     header {
@@ -212,41 +182,28 @@
     .error-box {
       background: #fef2f2; border: 1px solid #fecaca;
       border-radius: 10px; padding: 14px; color: #dc2626;
-      font-size: 13px; margin: 12px;
+      font-size: 13px; margin: 12px; line-height: 1.5;
+    }
+
+    /* ── Stale warning banner ── */
+    .stale-banner {
+      background: #fffbeb; border-bottom: 1px solid #fde68a;
+      padding: 6px 14px; font-size: 12px; color: #92400e;
+      text-align: center;
     }
   </style>
 </head>
 <body>
 
-<!-- ═══ CONFIG — fill in after Azure AD registration ═══ -->
 <script>
-  const APP_CONFIG = {
-    clientId: '58525da7-a813-48ca-a18f-5ea6f59939f1',
-    tenantId: '811558c4-d5f5-4eb0-9300-295a4804ece6',
-    jeffMailbox: 'jeff.segers@skyfast.be',
-    petsMailbox: 'pets@skyfast.be',
-  };
+  const JEFF_EMAIL = 'jeff.segers@skyfast.be';
+  const PETS_EMAIL = 'pets@skyfast.be';
+  // Public JSON snapshot — pushed by Cowork every 15 minutes
+  const DATA_URL   = 'https://raw.githubusercontent.com/JeffSegers/freight-watch/main/freight-emails.json';
 </script>
-<!-- ════════════════════════════════════════════════════ -->
 
-<!-- Login screen -->
-<div id="login-screen" style="display:none">
-  <div class="login-logo">📬</div>
-  <div class="login-title">Freight Watch</div>
-  <div class="login-sub">Sign in with your Skyfast Microsoft account to monitor your freight inbox.</div>
-  <button class="login-btn" onclick="signIn()">
-    <svg class="ms-logo" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="1" y="1" width="9" height="9" fill="#f25022"/>
-      <rect x="11" y="1" width="9" height="9" fill="#7fba00"/>
-      <rect x="1" y="11" width="9" height="9" fill="#00a4ef"/>
-      <rect x="11" y="11" width="9" height="9" fill="#ffb900"/>
-    </svg>
-    Sign in with Microsoft
-  </button>
-</div>
-
-<!-- Main app -->
-<div id="app" style="display:none">
+<!-- Main app — no login required -->
+<div id="app">
   <header>
     <div class="header-row">
       <div class="header-left">
@@ -255,157 +212,98 @@
       </div>
       <div class="header-btns">
         <button class="hdr-btn" id="refresh-btn" onclick="loadEmails()">↻</button>
-        <button class="hdr-btn" onclick="signOut()" title="Sign out">⏻</button>
       </div>
     </div>
   </header>
+  <div id="stale-banner" style="display:none" class="stale-banner"></div>
   <div class="tabs" id="tabs">
-    <div class="tab active" data-filter="ALL">All</div>
+    <div class="tab active" data-filter="ALL" onclick="setFilter('ALL')">All</div>
   </div>
   <div id="content">
-    <div class="loading-wrap"><div class="spinner"></div><div>Fetching last 4 hours…</div></div>
+    <div class="loading-wrap"><div class="spinner"></div><div>Loading…</div></div>
   </div>
 </div>
 
 <div id="toast"></div>
 
 <script>
-// ── MSAL setup ────────────────────────────────────────────────────────────────
-const msalInstance = new msal.PublicClientApplication({
-  auth: {
-    clientId: APP_CONFIG.clientId,
-    authority: `https://login.microsoftonline.com/${APP_CONFIG.tenantId}`,
-    redirectUri: window.location.origin + window.location.pathname.replace(/\/$/, '') + '/',
-  },
-  cache: {
-    cacheLocation: 'localStorage',
-    storeAuthStateInCookie: true,
-  }
-});
-
-const SCOPES = ['User.Read', 'Mail.Read', 'Mail.Read.Shared'];
-
-let currentAccount = null;
-let allEmails = [];
-let emailMap  = {};
+// ── State ─────────────────────────────────────────────────────────────────────
+let allEmails    = [];
+let emailMap     = {};
 let activeFilter = localStorage.getItem('fw_filter') || 'ALL';
 
-// ── Auth ──────────────────────────────────────────────────────────────────────
+// ── Data fetch (GitHub raw JSON) ──────────────────────────────────────────────
 
-async function init() {
-  await msalInstance.initialize();
+async function loadEmails() {
+  const content = document.getElementById('content');
+  const sub     = document.getElementById('header-sub');
+  const btn     = document.getElementById('refresh-btn');
+  const banner  = document.getElementById('stale-banner');
 
-  // Handle redirect response
+  btn.classList.add('spin-active'); btn.textContent = '…';
+  content.innerHTML = '<div class="loading-wrap"><div class="spinner"></div><div>Loading…</div></div>';
+  sub.textContent = 'Loading…';
+  banner.style.display = 'none';
+
   try {
-    const resp = await msalInstance.handleRedirectPromise();
-    if (resp) currentAccount = resp.account;
-  } catch (e) { console.warn('Redirect error:', e); }
+    const resp = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} — snapshot not found`);
+    const data = await resp.json();
 
-  const accounts = msalInstance.getAllAccounts();
-  if (accounts.length > 0) {
-    currentAccount = accounts[0];
-    msalInstance.setActiveAccount(currentAccount);
-    showApp();
-    loadEmails();
-  } else {
-    document.getElementById('login-screen').style.display = 'flex';
-  }
-}
+    allEmails = (data.emails || []);
+    emailMap  = {};
+    allEmails.forEach(e => { emailMap[e.id] = e; });
 
-async function signIn() {
-  try {
-    const resp = await msalInstance.loginPopup({ scopes: SCOPES, prompt: 'select_account' });
-    currentAccount = resp.account;
-    msalInstance.setActiveAccount(currentAccount);
-    document.getElementById('login-screen').style.display = 'none';
-    showApp();
-    loadEmails();
+    // "Updated X min ago" label + stale warning
+    let updatedStr  = '';
+    let staleMinutes = null;
+    if (data.updated) {
+      staleMinutes = Math.round((Date.now() - new Date(data.updated)) / 60000);
+      const label  = staleMinutes < 1 ? 'just now' : `${staleMinutes}m ago`;
+      updatedStr   = ` · updated ${label}`;
+    }
+
+    // Show stale banner if snapshot is older than 30 min
+    if (staleMinutes !== null && staleMinutes > 30) {
+      banner.textContent = `⚠️ Snapshot is ${staleMinutes}m old — Cowork may be offline`;
+      banner.style.display = 'block';
+    }
+
+    const total  = allEmails.length;
+    const unread = allEmails.filter(e => !e.isRead).length;
+
+    if (total === 0) {
+      sub.textContent = `jeff + pets · inbox quiet${updatedStr}`;
+      document.getElementById('tabs').innerHTML =
+        '<div class="tab active" data-filter="ALL" onclick="setFilter(\'ALL\')">All (0)</div>';
+      content.innerHTML = `
+        <div class="empty-state">
+          <div class="empty-icon">📭</div>
+          <div class="empty-title">All clear</div>
+          <div class="empty-sub">No emails in the last 4 hours${updatedStr}</div>
+        </div>`;
+    } else {
+      sub.textContent = `jeff + pets · ${total} email${total !== 1 ? 's' : ''}${unread ? ` · ${unread} unread` : ''}${updatedStr}`;
+      buildTabs(allEmails);
+      renderList();
+    }
   } catch (e) {
-    console.error('Login error:', e);
-    showToast('Login failed: ' + (e.message || e), 'error');
-  }
-}
-
-function signOut() {
-  msalInstance.logoutPopup({ account: currentAccount });
-}
-
-function showApp() {
-  document.getElementById('app').style.display = 'block';
-  document.getElementById('login-screen').style.display = 'none';
-}
-
-async function getToken() {
-  try {
-    const resp = await msalInstance.acquireTokenSilent({ scopes: SCOPES, account: currentAccount });
-    return resp.accessToken;
-  } catch (e) {
-    const resp = await msalInstance.acquireTokenPopup({ scopes: SCOPES });
-    return resp.accessToken;
-  }
-}
-
-// ── Graph API helpers ─────────────────────────────────────────────────────────
-
-async function graphGet(path, token) {
-  const tk = token || await getToken();
-  const resp = await fetch(`https://graph.microsoft.com/v1.0${path}`, {
-    headers: { Authorization: `Bearer ${tk}`, 'Content-Type': 'application/json' }
-  });
-  if (!resp.ok) {
-    const err = await resp.text();
-    throw new Error(`Graph GET ${path} → ${resp.status}: ${err}`);
-  }
-  return resp.json();
-}
-
-async function graphPost(path, body, token) {
-  const tk = token || await getToken();
-  const resp = await fetch(`https://graph.microsoft.com/v1.0${path}`, {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${tk}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify(body)
-  });
-  if (!resp.ok) {
-    const err = await resp.text();
-    throw new Error(`Graph POST ${path} → ${resp.status}: ${err}`);
-  }
-  return resp.status === 204 ? null : resp.json();
-}
-
-// ── Email fetch ───────────────────────────────────────────────────────────────
-
-function iso4HoursAgo() {
-  return new Date(Date.now() - 4 * 60 * 60 * 1000).toISOString();
-}
-
-const EMAIL_SELECT = '$select=id,subject,from,receivedDateTime,bodyPreview,hasAttachments,isRead,webLink,internetMessageId';
-
-async function fetchJeffEmails(token) {
-  const since = iso4HoursAgo();
-  const filter = `receivedDateTime ge ${since}`;
-  const url = `/me/messages?$filter=${encodeURIComponent(filter)}&$orderby=receivedDateTime desc&$top=25&${EMAIL_SELECT}`;
-  const data = await graphGet(url, token);
-  return (data.value || []).map(e => ({ ...e, _mailbox: 'jeff' }));
-}
-
-async function fetchPetsEmails(token) {
-  const since = iso4HoursAgo();
-  const filter = `receivedDateTime ge ${since}`;
-  const url = `/users/${encodeURIComponent(APP_CONFIG.petsMailbox)}/messages?$filter=${encodeURIComponent(filter)}&$orderby=receivedDateTime desc&$top=25&${EMAIL_SELECT}`;
-  try {
-    const data = await graphGet(url, token);
-    return (data.value || []).map(e => ({ ...e, _mailbox: 'pets' }));
-  } catch (e) {
-    console.warn('Could not fetch pets mailbox:', e.message);
-    return [];
+    console.error('Load error:', e);
+    sub.textContent = 'Error loading';
+    content.innerHTML = `
+      <div class="error-box">
+        ⚠️ ${esc(e.message)}<br><br>
+        The Cowork snapshot updates every 15 minutes. If this is the first load, give it a moment and tap ↻.
+      </div>`;
+  } finally {
+    btn.classList.remove('spin-active'); btn.textContent = '↻';
   }
 }
 
 // ── Classification (keyword heuristic) ───────────────────────────────────────
 
 function classify(email) {
-  const text = `${email.subject || ''} ${email.bodyPreview || ''}`.toLowerCase();
+  const text   = `${email.subject || ''} ${email.bodyPreview || ''}`.toLowerCase();
   const sender = (email.from?.emailAddress?.address || '').toLowerCase();
 
   // System/junk first
@@ -438,14 +336,12 @@ function classify(email) {
 }
 
 // ── Teams dispatch via deep link ──────────────────────────────────────────────
-// Opens Teams with a pre-filled message — no admin consent required.
 
 function dispatchToTeams(action, email) {
-  const mailboxLabel = email._mailbox === 'pets'
-    ? APP_CONFIG.petsMailbox
-    : APP_CONFIG.jeffMailbox;
+  if (!email) { showToast('Email not found', 'error'); return; }
 
-  const actionLine = action === 'quote'
+  const mailboxLabel = email._mailbox === 'pets' ? PETS_EMAIL : JEFF_EMAIL;
+  const actionLine   = action === 'quote'
     ? '💬 Create a quote from this email:'
     : '📦 Create a shipment from this email:';
 
@@ -462,10 +358,8 @@ function dispatchToTeams(action, email) {
     `Email ID: ${email.id}`,
   ].filter(Boolean).join('\n');
 
-  // Teams deep link — opens Teams app (mobile or desktop) with message pre-filled
-  const teamsUrl = `https://teams.microsoft.com/l/chat/0/0?users=${encodeURIComponent(APP_CONFIG.jeffMailbox)}&message=${encodeURIComponent(msgBody)}`;
+  const teamsUrl = `https://teams.microsoft.com/l/chat/0/0?users=${encodeURIComponent(JEFF_EMAIL)}&message=${encodeURIComponent(msgBody)}`;
   window.open(teamsUrl, '_blank');
-
   showToast('Teams opened — just tap Send!', 'success');
 }
 
@@ -478,25 +372,27 @@ const CAT_LABELS = {
 
 function timeAgo(dt) {
   const diff = (Date.now() - new Date(dt)) / 1000;
-  if (diff < 60) return 'just now';
-  if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+  if (diff < 60)    return 'just now';
+  if (diff < 3600)  return `${Math.floor(diff / 60)}m ago`;
   if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
-  return new Date(dt).toLocaleString('en-GB', { day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' });
+  return new Date(dt).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
 }
 
-function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function esc(s) {
+  return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
 
 function renderCard(email) {
-  const cat   = email._category || 'OTHER';
-  const label = CAT_LABELS[cat] || cat;
-  const isJeff  = email._mailbox === 'jeff';
+  const cat    = email._category || classify(email);
+  const label  = CAT_LABELS[cat] || cat;
+  const isJeff = email._mailbox !== 'pets';
   const pillCls = isJeff ? 'pill-jeff' : 'pill-pets';
   const pillLbl = isJeff ? 'jeff@' : 'pets@';
   const attach  = email.hasAttachments ? ' 📎' : '';
   const unread  = !email.isRead;
 
-  const showQuote    = !['JUNK','ARRIVAL'].includes(cat);
-  const showShipment = !['JUNK','INVOICE','ARRIVAL'].includes(cat);
+  const showQuote    = !['JUNK', 'ARRIVAL'].includes(cat);
+  const showShipment = !['JUNK', 'INVOICE', 'ARRIVAL'].includes(cat);
 
   const eid = esc(email.id);
 
@@ -513,9 +409,9 @@ function renderCard(email) {
       <div class="card-subject">${esc(email.subject || '(no subject)')}</div>
       ${email.bodyPreview ? `<div class="card-preview">${esc(email.bodyPreview)}</div>` : ''}
       <div class="card-actions">
-        ${showQuote ? `<button class="action-btn btn-quote" data-dispatch="${eid}-quote" onclick="dispatchToTeams('quote', emailMap['${eid}'])">💬 Quote</button>` : ''}
-        ${showShipment ? `<button class="action-btn btn-shipment" data-dispatch="${eid}-shipment" onclick="dispatchToTeams('shipment', emailMap['${eid}'])">📦 Shipment</button>` : ''}
-        <button class="action-btn btn-open" onclick="window.open('${esc(email.webLink)}','_blank')" title="Open in Outlook">↗</button>
+        ${showQuote    ? `<button class="action-btn btn-quote"    onclick="dispatchToTeams('quote',    emailMap['${eid}'])">💬 Quote</button>` : ''}
+        ${showShipment ? `<button class="action-btn btn-shipment" onclick="dispatchToTeams('shipment', emailMap['${eid}'])">📦 Shipment</button>` : ''}
+        ${email.webLink ? `<button class="action-btn btn-open" onclick="window.open('${esc(email.webLink)}','_blank')" title="Open in Outlook">↗</button>` : ''}
       </div>
     </div>`;
 }
@@ -523,14 +419,14 @@ function renderCard(email) {
 function renderList() {
   const filtered = activeFilter === 'ALL'
     ? allEmails
-    : allEmails.filter(e => (e._category || 'OTHER') === activeFilter);
+    : allEmails.filter(e => (e._category || classify(e)) === activeFilter);
   const content = document.getElementById('content');
   if (filtered.length === 0) {
     content.innerHTML = `
       <div class="empty-state">
-        <div class="empty-icon">${activeFilter === 'ALL' ? '📭' : '🔍'}</div>
-        <div class="empty-title">${activeFilter === 'ALL' ? 'All clear' : 'None in this category'}</div>
-        <div class="empty-sub">${activeFilter === 'ALL' ? 'No emails in the last 4 hours' : 'Try a different filter'}</div>
+        <div class="empty-icon">🔍</div>
+        <div class="empty-title">None in this category</div>
+        <div class="empty-sub">Try a different filter</div>
       </div>`;
   } else {
     content.innerHTML = `<div class="list">${filtered.map(renderCard).join('')}</div>`;
@@ -546,75 +442,17 @@ function setFilter(f) {
 
 function buildTabs(emails) {
   const counts = { ALL: emails.length };
-  emails.forEach(e => { const c = e._category || 'OTHER'; counts[c] = (counts[c]||0) + 1; });
-  const order = ['ALL','AWB','QUOTE','INVOICE','AVI','ARRIVAL','OTHER','JUNK'];
+  emails.forEach(e => {
+    const c = e._category || classify(e);
+    counts[c] = (counts[c] || 0) + 1;
+  });
+  const order = ['ALL', 'AWB', 'QUOTE', 'INVOICE', 'AVI', 'ARRIVAL', 'OTHER', 'JUNK'];
   document.getElementById('tabs').innerHTML = order
     .filter(k => counts[k] > 0)
     .map(k => {
       const lbl = k === 'ALL' ? `All (${counts.ALL})` : `${CAT_LABELS[k]} (${counts[k]})`;
-      return `<div class="tab${activeFilter===k?' active':''}" data-filter="${k}" onclick="setFilter('${k}')">${lbl}</div>`;
+      return `<div class="tab${activeFilter === k ? ' active' : ''}" data-filter="${k}" onclick="setFilter('${k}')">${lbl}</div>`;
     }).join('');
-}
-
-// ── Main load ─────────────────────────────────────────────────────────────────
-
-async function loadEmails() {
-  const content = document.getElementById('content');
-  const sub     = document.getElementById('header-sub');
-  const btn     = document.getElementById('refresh-btn');
-
-  btn.classList.add('spin-active'); btn.textContent = '…';
-  content.innerHTML = '<div class="loading-wrap"><div class="spinner"></div><div>Fetching last 4 hours…</div></div>';
-  sub.textContent = 'Loading…';
-
-  try {
-    const token = await getToken();
-    const [jeffEmails, petsEmails] = await Promise.all([
-      fetchJeffEmails(token),
-      fetchPetsEmails(token)
-    ]);
-
-    // Deduplicate by internetMessageId
-    const seen = new Set();
-    const combined = [...jeffEmails, ...petsEmails].filter(e => {
-      const key = e.internetMessageId || e.id;
-      if (seen.has(key)) return false;
-      seen.add(key); return true;
-    });
-
-    // Sort newest first
-    combined.sort((a,b) => new Date(b.receivedDateTime) - new Date(a.receivedDateTime));
-
-    // Classify & build state
-    allEmails = combined.map(e => ({ ...e, _category: classify(e) }));
-    emailMap  = {};
-    allEmails.forEach(e => { emailMap[e.id] = e; });
-
-    const unread = allEmails.filter(e => !e.isRead).length;
-    const now    = new Date().toLocaleTimeString('en-GB', { hour:'2-digit', minute:'2-digit' });
-    const total  = allEmails.length;
-
-    if (total === 0) {
-      sub.textContent = `jeff + pets · last 4h · inbox quiet · ${now}`;
-      document.getElementById('tabs').innerHTML = '<div class="tab active" data-filter="ALL">All (0)</div>';
-      content.innerHTML = `
-        <div class="empty-state">
-          <div class="empty-icon">📭</div>
-          <div class="empty-title">All clear</div>
-          <div class="empty-sub">No emails in the last 4 hours</div>
-        </div>`;
-    } else {
-      sub.textContent = `jeff + pets · last 4h · ${total} email${total!==1?'s':''}${unread?` · ${unread} unread`:''} · ${now}`;
-      buildTabs(allEmails);
-      renderList();
-    }
-  } catch (e) {
-    console.error('Load error:', e);
-    sub.textContent = 'Error loading';
-    content.innerHTML = `<div class="error-box">⚠️ ${e.message || e}</div>`;
-  } finally {
-    btn.classList.remove('spin-active'); btn.textContent = '↻';
-  }
 }
 
 // ── Toast ─────────────────────────────────────────────────────────────────────
@@ -622,20 +460,22 @@ async function loadEmails() {
 function showToast(msg, type = '') {
   const t = document.getElementById('toast');
   t.textContent = msg;
-  t.className = type ? `show ${type}` : 'show';
+  t.className   = type ? `show ${type}` : 'show';
   setTimeout(() => { t.className = type; }, 3500);
 }
 
-// ── Service worker registration ───────────────────────────────────────────────
+// ── Service worker ────────────────────────────────────────────────────────────
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch(e => console.warn('SW error:', e));
 }
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
+loadEmails();
 
-init();
+// Auto-refresh every 5 minutes while the page is open
+setInterval(loadEmails, 5 * 60 * 1000);
 </script>
 </body>
 </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
