@@ -1,5 +1,5 @@
 // Freight Watch — minimal service worker (enables PWA installability)
-const CACHE = 'fw-v2';
+const CACHE = 'fw-v3';
 const SHELL = ['/', '/index.html', '/manifest.json'];
 
 self.addEventListener('install', e => {
