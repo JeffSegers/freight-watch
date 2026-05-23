@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Freight Watch">
+  <meta name="theme-color" content="#0f2744">
+  <title>Freight Watch</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-180.svg">
+
+  <!-- MSAL.js for Microsoft login -->
+  <script src="https://alcdn.msauth.net/browser/2.38.3/js/msal-browser.min.js"
+    integrity="sha384-P7OHEbjSGLMqFfvBdvqxFmPTPlRkBWC3iGb0PIFPlMSEyeq8A5tRJnq4gH//l1R"
+    crossorigin="anonymous"></script>
+
+  <style>
+    /* ── Reset & base ── */
+    :root {
+      color-scheme: light;
+      --navy:   #0f2744;
+      --navy2:  #1a3a5c;
+      --bg:     #f0f2f5;
+      --card:   #ffffff;
+      --text:   #111827;
+      --muted:  #6b7280;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      max-width: 500px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    /* ── Login screen ── */
+    #login-screen {
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      min-height: 100vh;
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .login-logo  { font-size: 64px; margin-bottom: 20px; }
+    .login-title { font-size: 26px; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+    .login-sub   { font-size: 15px; color: var(--muted); margin-bottom: 40px; line-height: 1.5; }
+    .login-btn {
+      background: var(--navy);
+      color: white;
+      border: none;
+      padding: 14px 36px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex; align-items: center; gap: 10px;
+      box-shadow: 0 4px 14px rgba(15,39,68,0.35);
+    }
+    .login-btn:active { opacity: 0.85; }
+    .ms-logo { width: 20px; height: 20px; }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 100%);
+      color: white;
+      padding: 12px 16px;
+      padding-top: calc(12px + env(safe-area-inset-top));
+      position: sticky; top: 0; z-index: 10;
+    }
+    .header-row { display: flex; justify-content: space-between; align-items: flex-start; }
+    .header-left { flex: 1; min-width: 0; }
+    .header-title { font-size: 18px; font-weight: 700; }
+    .header-sub {
+      font-size: 11px; color: rgba(255,255,255,0.65);
+      margin-top: 2px; white-space: nowrap;
+      overflow: hidden; text-overflow: ellipsis;
+    }
+    .header-btns { display: flex; gap: 8px; margin-left: 10px; }
+    .hdr-btn {
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: white; padding: 5px 13px;
+      border-radius: 20px; font-size: 13px; font-weight: 500;
+      cursor: pointer; white-space: nowrap;
+    }
+    .hdr-btn:active { background: rgba(255,255,255,0.28); }
+    .hdr-btn.spin-active { opacity: 0.6; pointer-events: none; }
+
+    /* ── Filter tabs ── */
+    .tabs {
+      display: flex; gap: 6px;
+      padding: 10px 12px 8px;
+      overflow-x: auto; background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+    .tabs::-webkit-scrollbar { display: none; }
+    .tab {
+      padding: 4px 13px; border-radius: 20px;
+      font-size: 12px; font-weight: 600;
+      cursor: pointer; white-space: nowrap;
+      border: 1.5px solid transparent;
+      background: white; color: var(--muted);
+      transition: all 0.15s;
+    }
+    .tab.active { background: var(--navy); color: white; border-color: var(--navy); }
+    .tab:active  { opacity: 0.7; }
+
+    /* ── List ── */
+    .list { padding: 10px 12px; display: flex; flex-direction: column; gap: 10px; }
+
+    /* ── Card ── */
+    .card {
+      background: var(--card); border-radius: 14px;
+      padding: 13px 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+      border-left: 4px solid var(--border);
+    }
+    .card.unread { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .card.cat-awb     { border-left-color: #2563eb; }
+    .card.cat-quote   { border-left-color: #16a34a; }
+    .card.cat-invoice { border-left-color: #d97706; }
+    .card.cat-avi     { border-left-color: #9333ea; }
+    .card.cat-arrival { border-left-color: #0891b2; }
+    .card.cat-junk    { border-left-color: #d1d5db; opacity: 0.7; }
+    .card.cat-other   { border-left-color: #9ca3af; }
+
+    .card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 7px; }
+
+    .badge {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.5px;
+      padding: 2px 8px; border-radius: 10px; text-transform: uppercase;
+    }
+    .badge-awb     { background: #dbeafe; color: #1d4ed8; }
+    .badge-quote   { background: #dcfce7; color: #15803d; }
+    .badge-invoice { background: #fef3c7; color: #b45309; }
+    .badge-avi     { background: #f3e8ff; color: #7e22ce; }
+    .badge-arrival { background: #cffafe; color: #0e7490; }
+    .badge-junk    { background: #f3f4f6; color: #9ca3af; }
+    .badge-other   { background: #f3f4f6; color: #6b7280; }
+
+    .card-time {
+      font-size: 11px; color: #9ca3af;
+      display: flex; align-items: center; gap: 5px;
+    }
+    .mailbox-pill {
+      font-size: 10px; font-weight: 600;
+      padding: 1px 6px; border-radius: 8px;
+    }
+    .pill-jeff { background: #dbeafe; color: #1e40af; }
+    .pill-pets { background: #f3e8ff; color: #6b21a8; }
+
+    .card-sender {
+      font-size: 12px; color: var(--muted); margin-bottom: 3px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .card-subject {
+      font-size: 15px; font-weight: 600; line-height: 1.35; margin-bottom: 5px;
+    }
+    .card-preview {
+      font-size: 13px; color: var(--muted); line-height: 1.45; margin-bottom: 11px;
+      display: -webkit-box; -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .card-actions { display: flex; gap: 7px; }
+    .action-btn {
+      flex: 1; padding: 8px 6px;
+      border: none; border-radius: 9px;
+      font-size: 13px; font-weight: 600;
+      cursor: pointer;
+    }
+    .action-btn:active { filter: brightness(0.9); transform: scale(0.97); }
+    .btn-quote    { background: #dcfce7; color: #15803d; }
+    .btn-shipment { background: #dbeafe; color: #1d4ed8; }
+    .btn-open     { background: #f3f4f6; color: #374151; font-size: 12px; max-width: 44px; flex: 0 0 44px; }
+
+    /* ── Toast ── */
+    #toast {
+      position: fixed; bottom: calc(20px + env(safe-area-inset-bottom));
+      left: 50%; transform: translateX(-50%) translateY(80px);
+      background: #1f2937; color: white;
+      padding: 10px 20px; border-radius: 20px;
+      font-size: 14px; font-weight: 500;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease; z-index: 100;
+      white-space: nowrap;
+    }
+    #toast.show { transform: translateX(-50%) translateY(0); }
+    #toast.success { background: #15803d; }
+    #toast.error   { background: #dc2626; }
+
+    /* ── States ── */
+    .empty-state { text-align: center; padding: 60px 20px; }
+    .empty-icon  { font-size: 52px; margin-bottom: 14px; }
+    .empty-title { font-size: 17px; font-weight: 600; color: #374151; }
+    .empty-sub   { font-size: 14px; color: var(--muted); margin-top: 5px; }
+
+    .loading-wrap { text-align: center; padding: 50px 20px; color: var(--muted); }
+    .spinner {
+      width: 30px; height: 30px;
+      border: 3px solid var(--border); border-top-color: #2563eb;
+      border-radius: 50%; animation: spin 0.75s linear infinite;
+      margin: 0 auto 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .error-box {
+      background: #fef2f2; border: 1px solid #fecaca;
+      border-radius: 10px; padding: 14px; color: #dc2626;
+      font-size: 13px; margin: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ CONFIG — fill in after Azure AD registration ═══ -->
+<script>
+  const APP_CONFIG = {
+    clientId: '58525da7-a813-48ca-a18f-5ea6f59939f1',
+    tenantId: '811558c4-d5f5-4eb0-9300-295a4804ece6',
+    jeffMailbox: 'jeff.segers@skyfast.be',
+    petsMailbox: 'pets@skyfast.be',
+  };
+</script>
+<!-- ════════════════════════════════════════════════════ -->
+
+<!-- Login screen -->
+<div id="login-screen" style="display:none">
+  <div class="login-logo">📬</div>
+  <div class="login-title">Freight Watch</div>
+  <div class="login-sub">Sign in with your Skyfast Microsoft account to monitor your freight inbox.</div>
+  <button class="login-btn" onclick="signIn()">
+    <svg class="ms-logo" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="9" height="9" fill="#f25022"/>
+      <rect x="11" y="1" width="9" height="9" fill="#7fba00"/>
+      <rect x="1" y="11" width="9" height="9" fill="#00a4ef"/>
+      <rect x="11" y="11" width="9" height="9" fill="#ffb900"/>
+    </svg>
+    Sign in with Microsoft
+  </button>
+</div>
+
+<!-- Main app -->
+<div id="app" style="display:none">
+  <header>
+    <div class="header-row">
+      <div class="header-left">
+        <div class="header-title">📬 Freight Watch</div>
+        <div class="header-sub" id="header-sub">Loading…</div>
+      </div>
+      <div class="header-btns">
+        <button class="hdr-btn" id="refresh-btn" onclick="loadEmails()">↻</button>
+        <button class="hdr-btn" onclick="signOut()" title="Sign out">⏻</button>
+      </div>
+    </div>
+  </header>
+  <div class="tabs" id="tabs">
+    <div class="tab active" data-filter="ALL">All</div>
+  </div>
+  <div id="content">
+    <div class="loading-wrap"><div class="spinner"></div><div>Fetching last 4 hours…</div></div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+// ── MSAL setup ────────────────────────────────────────────────────────────────
+const msalInstance = new msal.PublicClientApplication({
+  auth: {
+    clientId: APP_CONFIG.clientId,
+    authority: `https://login.microsoftonline.com/${APP_CONFIG.tenantId}`,
+    redirectUri: window.location.origin + window.location.pathname.replace(/\/$/, '') + '/',
+  },
+  cache: {
+    cacheLocation: 'localStorage',
+    storeAuthStateInCookie: true,
+  }
+});
+
+const SCOPES = ['User.Read', 'Mail.Read', 'Mail.Read.Shared', 'Chat.ReadWrite', 'ChatMessage.Send'];
+
+let currentAccount = null;
+let selfChatId = null;
+let allEmails = [];
+let emailMap  = {};
+let activeFilter = localStorage.getItem('fw_filter') || 'ALL';
+
+// ── Auth ──────────────────────────────────────────────────────────────────────
+
+async function init() {
+  await msalInstance.initialize();
+
+  // Handle redirect response
+  try {
+    const resp = await msalInstance.handleRedirectPromise();
+    if (resp) currentAccount = resp.account;
+  } catch (e) { console.warn('Redirect error:', e); }
+
+  const accounts = msalInstance.getAllAccounts();
+  if (accounts.length > 0) {
+    currentAccount = accounts[0];
+    msalInstance.setActiveAccount(currentAccount);
+    showApp();
+    loadEmails();
+  } else {
+    document.getElementById('login-screen').style.display = 'flex';
+  }
+}
+
+async function signIn() {
+  try {
+    const resp = await msalInstance.loginPopup({ scopes: SCOPES, prompt: 'select_account' });
+    currentAccount = resp.account;
+    msalInstance.setActiveAccount(currentAccount);
+    document.getElementById('login-screen').style.display = 'none';
+    showApp();
+    loadEmails();
+  } catch (e) {
+    console.error('Login error:', e);
+    showToast('Login failed: ' + (e.message || e), 'error');
+  }
+}
+
+function signOut() {
+  msalInstance.logoutPopup({ account: currentAccount });
+}
+
+function showApp() {
+  document.getElementById('app').style.display = 'block';
+  document.getElementById('login-screen').style.display = 'none';
+}
+
+async function getToken() {
+  try {
+    const resp = await msalInstance.acquireTokenSilent({ scopes: SCOPES, account: currentAccount });
+    return resp.accessToken;
+  } catch (e) {
+    const resp = await msalInstance.acquireTokenPopup({ scopes: SCOPES });
+    return resp.accessToken;
+  }
+}
+
+// ── Graph API helpers ─────────────────────────────────────────────────────────
+
+async function graphGet(path, token) {
+  const tk = token || await getToken();
+  const resp = await fetch(`https://graph.microsoft.com/v1.0${path}`, {
+    headers: { Authorization: `Bearer ${tk}`, 'Content-Type': 'application/json' }
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Graph GET ${path} → ${resp.status}: ${err}`);
+  }
+  return resp.json();
+}
+
+async function graphPost(path, body, token) {
+  const tk = token || await getToken();
+  const resp = await fetch(`https://graph.microsoft.com/v1.0${path}`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${tk}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Graph POST ${path} → ${resp.status}: ${err}`);
+  }
+  return resp.status === 204 ? null : resp.json();
+}
+
+// ── Email fetch ───────────────────────────────────────────────────────────────
+
+function iso4HoursAgo() {
+  return new Date(Date.now() - 4 * 60 * 60 * 1000).toISOString();
+}
+
+const EMAIL_SELECT = '$select=id,subject,from,receivedDateTime,bodyPreview,hasAttachments,isRead,webLink,internetMessageId';
+
+async function fetchJeffEmails(token) {
+  const since = iso4HoursAgo();
+  const filter = `receivedDateTime ge ${since}`;
+  const url = `/me/messages?$filter=${encodeURIComponent(filter)}&$orderby=receivedDateTime desc&$top=25&${EMAIL_SELECT}`;
+  const data = await graphGet(url, token);
+  return (data.value || []).map(e => ({ ...e, _mailbox: 'jeff' }));
+}
+
+async function fetchPetsEmails(token) {
+  const since = iso4HoursAgo();
+  const filter = `receivedDateTime ge ${since}`;
+  const url = `/users/${encodeURIComponent(APP_CONFIG.petsMailbox)}/messages?$filter=${encodeURIComponent(filter)}&$orderby=receivedDateTime desc&$top=25&${EMAIL_SELECT}`;
+  try {
+    const data = await graphGet(url, token);
+    return (data.value || []).map(e => ({ ...e, _mailbox: 'pets' }));
+  } catch (e) {
+    console.warn('Could not fetch pets mailbox:', e.message);
+    return [];
+  }
+}
+
+// ── Classification (keyword heuristic) ───────────────────────────────────────
+
+function classify(email) {
+  const text = `${email.subject || ''} ${email.bodyPreview || ''}`.toLowerCase();
+  const sender = (email.from?.emailAddress?.address || '').toLowerCase();
+
+  // System/junk first
+  if (/undeliverable|delivery fail|out of office|afwezig|newsletter|unsubscribe|no-reply|noreply/.test(text + sender))
+    return 'JUNK';
+  if (/microsoftexchange|mailer-daemon/.test(sender))
+    return 'JUNK';
+
+  // AVI before AWB (animals might mention AWB too)
+  if (/\b(avi|live animal|pet|dog|cat|bird|cites|brachycephalic)\b/.test(text))
+    return 'AVI';
+
+  // Arrival notices
+  if (/arrival notice|cargo.{0,10}ready|available.{0,10}pickup|cn46|ata\b|has arrived|has landed/.test(text))
+    return 'ARRIVAL';
+
+  // AWB / shipment
+  if (/\b\d{3}-\d{8}\b/.test(text) || /\b(awb|mawb|hawb|air waybill|airway bill|shipment|cargo)\b/.test(text))
+    return 'AWB';
+
+  // Invoice / payment
+  if (/\b(invoice|factuur|payment|outstanding|overdue|billing|credit note|statement|rekening)\b/.test(text))
+    return 'INVOICE';
+
+  // Quote
+  if (/\b(quote|quotation|offerte|rate request|rate inquiry|tarief|pricing|book|booking request)\b/.test(text))
+    return 'QUOTE';
+
+  return 'OTHER';
+}
+
+// ── Teams self-chat ───────────────────────────────────────────────────────────
+
+async function getSelfChatId(token) {
+  if (selfChatId) return selfChatId;
+
+  // Get my user ID
+  const me = await graphGet('/me?$select=id', token);
+
+  // Create or retrieve self-chat
+  try {
+    const chat = await graphPost('/chats', {
+      chatType: 'oneOnOne',
+      members: [
+        {
+          '@odata.type': '#microsoft.graph.aadUserConversationMember',
+          roles: ['owner'],
+          'user@odata.bind': `https://graph.microsoft.com/v1.0/users/${me.id}`
+        },
+        {
+          '@odata.type': '#microsoft.graph.aadUserConversationMember',
+          roles: ['owner'],
+          'user@odata.bind': `https://graph.microsoft.com/v1.0/users/${me.id}`
+        }
+      ]
+    }, token);
+    selfChatId = chat.id;
+    return selfChatId;
+  } catch (e) {
+    // Fallback: search existing oneOnOne chats
+    const chats = await graphGet(`/me/chats?$filter=chatType eq 'oneOnOne'&$expand=members&$top=50`, token);
+    for (const chat of (chats.value || [])) {
+      const members = chat.members || [];
+      const ids = new Set(members.map(m => m.userId));
+      if (ids.size === 1) { // only one unique user = self-chat
+        selfChatId = chat.id;
+        return selfChatId;
+      }
+    }
+    throw new Error('Could not create or find Teams self-chat');
+  }
+}
+
+async function dispatchToTeams(action, email) {
+  const btn = document.querySelector(`[data-dispatch="${email.id}-${action}"]`);
+  if (btn) { btn.textContent = '…'; btn.disabled = true; }
+
+  try {
+    const token  = await getToken();
+    const chatId = await getSelfChatId(token);
+
+    const mailboxLabel = email._mailbox === 'pets'
+      ? APP_CONFIG.petsMailbox
+      : APP_CONFIG.jeffMailbox;
+
+    const actionLine = action === 'quote'
+      ? '💬 **Create a quote** from this email:'
+      : '📦 **Create a shipment** from this email:';
+
+    const msgBody = [
+      `🚚 *Freight Watch* — dispatched from phone`,
+      ``,
+      actionLine,
+      ``,
+      `**Subject:** ${email.subject || '(no subject)'}`,
+      `**From:** ${email.from?.emailAddress?.address || 'unknown'}`,
+      `**Mailbox:** ${mailboxLabel}`,
+      `**Received:** ${new Date(email.receivedDateTime).toLocaleString('en-GB')}`,
+      email.bodyPreview ? `**Preview:** ${email.bodyPreview.slice(0, 300)}` : '',
+      `**Email ID:** ${email.id}`,
+    ].filter(Boolean).join('\n');
+
+    await graphPost(`/chats/${chatId}/messages`, {
+      body: { contentType: 'text', content: msgBody }
+    }, token);
+
+    showToast(`✓ Sent to Teams — Cowork will pick it up`, 'success');
+    if (btn) { btn.textContent = action === 'quote' ? '💬 Sent!' : '📦 Sent!'; }
+
+  } catch (e) {
+    console.error('Dispatch error:', e);
+    showToast('Failed to send: ' + (e.message || e), 'error');
+    if (btn) {
+      btn.textContent = action === 'quote' ? '💬 Quote' : '📦 Shipment';
+      btn.disabled = false;
+    }
+  }
+}
+
+// ── Render ────────────────────────────────────────────────────────────────────
+
+const CAT_LABELS = {
+  AWB: 'AWB', QUOTE: 'Quote', INVOICE: 'Invoice',
+  AVI: 'AVI 🐾', ARRIVAL: 'Arrival', JUNK: 'Junk', OTHER: 'Other'
+};
+
+function timeAgo(dt) {
+  const diff = (Date.now() - new Date(dt)) / 1000;
+  if (diff < 60) return 'just now';
+  if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+  if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+  return new Date(dt).toLocaleString('en-GB', { day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' });
+}
+
+function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function renderCard(email) {
+  const cat   = email._category || 'OTHER';
+  const label = CAT_LABELS[cat] || cat;
+  const isJeff  = email._mailbox === 'jeff';
+  const pillCls = isJeff ? 'pill-jeff' : 'pill-pets';
+  const pillLbl = isJeff ? 'jeff@' : 'pets@';
+  const attach  = email.hasAttachments ? ' 📎' : '';
+  const unread  = !email.isRead;
+
+  const showQuote    = !['JUNK','ARRIVAL'].includes(cat);
+  const showShipment = !['JUNK','INVOICE','ARRIVAL'].includes(cat);
+
+  const eid = esc(email.id);
+
+  return `
+    <div class="card cat-${cat.toLowerCase()}${unread ? ' unread' : ''}">
+      <div class="card-top">
+        <span class="badge badge-${cat.toLowerCase()}">${esc(label)}</span>
+        <div class="card-time">
+          <span class="mailbox-pill ${pillCls}">${pillLbl}</span>
+          ${timeAgo(email.receivedDateTime)}${attach}
+        </div>
+      </div>
+      <div class="card-sender">${esc(email.from?.emailAddress?.address || '')}</div>
+      <div class="card-subject">${esc(email.subject || '(no subject)')}</div>
+      ${email.bodyPreview ? `<div class="card-preview">${esc(email.bodyPreview)}</div>` : ''}
+      <div class="card-actions">
+        ${showQuote ? `<button class="action-btn btn-quote" data-dispatch="${eid}-quote" onclick="dispatchToTeams('quote', emailMap['${eid}'])">💬 Quote</button>` : ''}
+        ${showShipment ? `<button class="action-btn btn-shipment" data-dispatch="${eid}-shipment" onclick="dispatchToTeams('shipment', emailMap['${eid}'])">📦 Shipment</button>` : ''}
+        <button class="action-btn btn-open" onclick="window.open('${esc(email.webLink)}','_blank')" title="Open in Outlook">↗</button>
+      </div>
+    </div>`;
+}
+
+function renderList() {
+  const filtered = activeFilter === 'ALL'
+    ? allEmails
+    : allEmails.filter(e => (e._category || 'OTHER') === activeFilter);
+  const content = document.getElementById('content');
+  if (filtered.length === 0) {
+    content.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-icon">${activeFilter === 'ALL' ? '📭' : '🔍'}</div>
+        <div class="empty-title">${activeFilter === 'ALL' ? 'All clear' : 'None in this category'}</div>
+        <div class="empty-sub">${activeFilter === 'ALL' ? 'No emails in the last 4 hours' : 'Try a different filter'}</div>
+      </div>`;
+  } else {
+    content.innerHTML = `<div class="list">${filtered.map(renderCard).join('')}</div>`;
+  }
+}
+
+function setFilter(f) {
+  activeFilter = f;
+  localStorage.setItem('fw_filter', f);
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.filter === f));
+  renderList();
+}
+
+function buildTabs(emails) {
+  const counts = { ALL: emails.length };
+  emails.forEach(e => { const c = e._category || 'OTHER'; counts[c] = (counts[c]||0) + 1; });
+  const order = ['ALL','AWB','QUOTE','INVOICE','AVI','ARRIVAL','OTHER','JUNK'];
+  document.getElementById('tabs').innerHTML = order
+    .filter(k => counts[k] > 0)
+    .map(k => {
+      const lbl = k === 'ALL' ? `All (${counts.ALL})` : `${CAT_LABELS[k]} (${counts[k]})`;
+      return `<div class="tab${activeFilter===k?' active':''}" data-filter="${k}" onclick="setFilter('${k}')">${lbl}</div>`;
+    }).join('');
+}
+
+// ── Main load ─────────────────────────────────────────────────────────────────
+
+async function loadEmails() {
+  const content = document.getElementById('content');
+  const sub     = document.getElementById('header-sub');
+  const btn     = document.getElementById('refresh-btn');
+
+  btn.classList.add('spin-active'); btn.textContent = '…';
+  content.innerHTML = '<div class="loading-wrap"><div class="spinner"></div><div>Fetching last 4 hours…</div></div>';
+  sub.textContent = 'Loading…';
+
+  try {
+    const token = await getToken();
+    const [jeffEmails, petsEmails] = await Promise.all([
+      fetchJeffEmails(token),
+      fetchPetsEmails(token)
+    ]);
+
+    // Deduplicate by internetMessageId
+    const seen = new Set();
+    const combined = [...jeffEmails, ...petsEmails].filter(e => {
+      const key = e.internetMessageId || e.id;
+      if (seen.has(key)) return false;
+      seen.add(key); return true;
+    });
+
+    // Sort newest first
+    combined.sort((a,b) => new Date(b.receivedDateTime) - new Date(a.receivedDateTime));
+
+    // Classify & build state
+    allEmails = combined.map(e => ({ ...e, _category: classify(e) }));
+    emailMap  = {};
+    allEmails.forEach(e => { emailMap[e.id] = e; });
+
+    const unread = allEmails.filter(e => !e.isRead).length;
+    const now    = new Date().toLocaleTimeString('en-GB', { hour:'2-digit', minute:'2-digit' });
+    const total  = allEmails.length;
+
+    if (total === 0) {
+      sub.textContent = `jeff + pets · last 4h · inbox quiet · ${now}`;
+      document.getElementById('tabs').innerHTML = '<div class="tab active" data-filter="ALL">All (0)</div>';
+      content.innerHTML = `
+        <div class="empty-state">
+          <div class="empty-icon">📭</div>
+          <div class="empty-title">All clear</div>
+          <div class="empty-sub">No emails in the last 4 hours</div>
+        </div>`;
+    } else {
+      sub.textContent = `jeff + pets · last 4h · ${total} email${total!==1?'s':''}${unread?` · ${unread} unread`:''} · ${now}`;
+      buildTabs(allEmails);
+      renderList();
+    }
+  } catch (e) {
+    console.error('Load error:', e);
+    sub.textContent = 'Error loading';
+    content.innerHTML = `<div class="error-box">⚠️ ${e.message || e}</div>`;
+  } finally {
+    btn.classList.remove('spin-active'); btn.textContent = '↻';
+  }
+}
+
+// ── Toast ─────────────────────────────────────────────────────────────────────
+
+function showToast(msg, type = '') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = type ? `show ${type}` : 'show';
+  setTimeout(() => { t.className = type; }, 3500);
+}
+
+// ── Service worker registration ───────────────────────────────────────────────
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(e => console.warn('SW error:', e));
+}
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+
+init();
+</script>
+</body>
+</html>
