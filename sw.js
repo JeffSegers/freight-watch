@@ -1,5 +1,5 @@
 // Freight Watch — minimal service worker (enables PWA installability)
-const CACHE = 'fw-v1';
+const CACHE = 'fw-v2';
 const SHELL = ['/', '/index.html', '/manifest.json'];
 
 self.addEventListener('install', e => {
@@ -20,7 +20,8 @@ self.addEventListener('fetch', e => {
   // Network-first: always try live data, fall back to cache for the shell only
   if (e.request.url.includes('graph.microsoft.com') ||
       e.request.url.includes('login.microsoftonline.com') ||
-      e.request.url.includes('alcdn.msauth.net')) {
+      e.request.url.includes('alcdn.msauth.net') ||
+      e.request.url.includes('cdn.jsdelivr.net')) {
     return; // let the browser handle auth/API calls normally
   }
   e.respondWith(
@@ -30,6 +31,4 @@ self.addEventListener('fetch', e => {
         caches.open(CACHE).then(c => c.put(e.request, clone));
         return resp;
       })
-      .catch(() => caches.match(e.request))
-  );
-});
+ 
