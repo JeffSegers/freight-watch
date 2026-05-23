@@ -1,6 +1,23 @@
 {
-  "updated": "2026-05-23T17:23:39Z",
+  "updated": "2026-05-23T17:40:13Z",
   "emails": [
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKB2AAA=",
+      "subject": "[JeffSegers/freight-watch] Run failed: pages build and deployment - main (1c52ec0)",
+      "from": {
+        "emailAddress": {
+          "address": "notifications@github.com",
+          "name": "GitHub"
+        }
+      },
+      "receivedDateTime": "2026-05-23T17:24:36.000Z",
+      "bodyPreview": "[JeffSegers/freight-watch] pages build and deployment workflow run\n\npages build and deployment run failed on main",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKB2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
+      "_category": "OTHER"
+    },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKB1AAA=",
       "subject": "[JeffSegers/freight-watch] Run failed: pages build and deployment - main (a79626b)",
@@ -11,7 +28,7 @@
         }
       },
       "receivedDateTime": "2026-05-23T15:15:23.000Z",
-      "bodyPreview": "[JeffSegers/freight-watch] pages build and deployment workflow run\n\npages build and deployment workflow run",
+      "bodyPreview": "[JeffSegers/freight-watch] pages build and deployment workflow run\n\npages build and deployment run failed on main",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKB1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -24,16 +41,16 @@
       "from": {
         "emailAddress": {
           "address": "info@saleboosters24.com",
-          "name": "Verisure Partner"
+          "name": "Verisure"
         }
       },
       "receivedDateTime": "2026-05-23T14:54:14.000Z",
-      "bodyPreview": "U ontvangt niet vaak e-mail van info@saleboosters24.com. Ontdek waarom dit belangrijk is\n\nAls de e-mail niet correct wordt weergegeven, klik hier\n\nDeze e-mail werd verstuurd door een partner van Verisure NV\n\nHoe kan ik van deze promotie profiteren?",
+      "bodyPreview": "U ontvangt niet vaak e-mail van info@saleboosters24.com. Ontdek waarom dit belangrijk is. Als de e-mail niet correct wordt weergegeven, klik hier. Deze e-mail werd verstuurd door een partner van Verisure NV. Hoe kan ik van deze promotie profiteren?",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKB0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnIAAA=",
@@ -45,7 +62,7 @@
         }
       },
       "receivedDateTime": "2026-05-23T14:51:46.000Z",
-      "bodyPreview": "@JeffSegers, a personal access token was created on your account.\n\nHey JeffSegers!\n\nA fine-grained personal access token (freight-watch-deploy) was recently added to your account.",
+      "bodyPreview": "@JeffSegers, a personal access token was created on your account. A fine-grained personal access token (freight-watch-deploy) was recently added to your account.",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -62,7 +79,7 @@
         }
       },
       "receivedDateTime": "2026-05-23T14:43:56.000Z",
-      "bodyPreview": "Hey JeffSegers!\n\nA sign in attempt requires further verification because we did not recognize your device.",
+      "bodyPreview": "Hey JeffSegers! A sign in attempt requires further verification because we did not recognize your device.",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
