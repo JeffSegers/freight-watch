@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T11:54:16Z",
+  "updated": "2026-05-24T12:09:05Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnUAAA=",
@@ -7,7 +7,7 @@
       "from": {
         "emailAddress": {
           "address": "newsletter@holidaycars.com",
-          "name": "HolidayCars"
+          "name": "Holiday Cars"
         }
       },
       "receivedDateTime": "2026-05-24T11:51:04.000Z",
@@ -37,7 +37,7 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAaPFGUZAAA=",
-      "subject": "⌛ LHGEI AURTO: anabathmiste tora kai parte ekptosi 70%",
+      "subject": "⌛ ΛΗΓΕΙ ΑΥΡΙΟ: αναβαθμίστε τώρα και πάρτε έκπτωση 70%",
       "from": {
         "emailAddress": {
           "address": "announce2@myheritage.com",
@@ -50,7 +50,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFGUZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "JUNK"
+      "_category": "OTHER"
     }
   ]
 }
