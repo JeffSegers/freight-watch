@@ -1,13 +1,30 @@
 {
-  "updated": "2026-05-24T13:39:24Z",
+  "updated": "2026-05-24T13:54:51Z",
   "emails": [
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKB6AAA=",
+      "subject": "Quote request freight 20260524154300 : Josephvog JosephvogNC",
+      "from": {
+        "emailAddress": {
+          "address": "webmaster@skyfast.be",
+          "name": "webmaster@skyfast.be"
+        }
+      },
+      "receivedDateTime": "2026-05-24T13:43:05.000Z",
+      "bodyPreview": "Preferred Language\r\nEnglish\r\n\r\nQuotenumber 20260524154300\r\nCargo Information\r\nCargo Description:\r\nНужна бесплатная юридическая консультация? Переходите по запросу бесплатная консультация адвоката без регистрации в Дмитрове",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKB6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
+      "_category": "QUOTE"
+    },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnWAAA=",
       "subject": "Microsoft 365 security: You have messages in quarantine",
       "from": {
         "emailAddress": {
           "address": "quarantine@messaging.microsoft.com",
-          "name": "Microsoft 365"
+          "name": "Microsoft 365 Message Center"
         }
       },
       "receivedDateTime": "2026-05-24T13:21:30.000Z",
@@ -15,8 +32,8 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "JUNK"
+      "_mailbox": "jeff",
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnVAAA=",
@@ -33,15 +50,15 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "JUNK"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnUAAA=",
-      "subject": "Boek slim, voeg vooraf eigen risico dekking toe",
+      "subject": "🛡️Boek slim, voeg vooraf eigen risico dekking toe",
       "from": {
         "emailAddress": {
           "address": "newsletter@holidaycars.com",
-          "name": "Holiday Cars"
+          "name": "HolidayCars"
         }
       },
       "receivedDateTime": "2026-05-24T11:51:04.000Z",
