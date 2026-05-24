@@ -1,13 +1,30 @@
 {
-  "updated": "2026-05-24T14:24:54Z",
+  "updated": "2026-05-24T14:40:27Z",
   "emails": [
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnYAAA=",
+      "subject": "You have an invitation",
+      "from": {
+        "emailAddress": {
+          "address": "invitations@linkedin.com",
+          "name": "LinkedIn"
+        }
+      },
+      "receivedDateTime": "2026-05-24T14:27:41.000Z",
+      "bodyPreview": "David, Website Design Engineer from Self Employed is waiting for your response",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
+      "_category": "OTHER"
+    },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnXAAA=",
       "subject": "The Hidden Comfort of the 'Red Pill' and 1 more",
       "from": {
         "emailAddress": {
           "address": "no-reply@substack.com",
-          "name": "no-reply@substack.com"
+          "name": "Substack"
         }
       },
       "receivedDateTime": "2026-05-24T14:20:19.000Z",
@@ -24,11 +41,11 @@
       "from": {
         "emailAddress": {
           "address": "webmaster@skyfast.be",
-          "name": "webmaster@skyfast.be"
+          "name": "Skyfast Webmaster"
         }
       },
       "receivedDateTime": "2026-05-24T13:43:05.000Z",
-      "bodyPreview": "Preferred Language\r\nEnglish\r\n\r\nQuotenumber 20260524154300\r\nCargo Information\r\nCargo Description:\r\nNужна бесплатная юридическая консультация?",
+      "bodyPreview": "Preferred Language: English | Quotenumber 20260524154300 | Cargo Description: (Russian text - possible spam submission)",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKB6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -41,15 +58,15 @@
       "from": {
         "emailAddress": {
           "address": "quarantine@messaging.microsoft.com",
-          "name": "quarantine@messaging.microsoft.com"
+          "name": "Microsoft 365"
         }
       },
       "receivedDateTime": "2026-05-24T13:21:30.000Z",
-      "bodyPreview": "Review These Messages\r\n1 messages are being held for you to review as of 24/05/2026 13:21:10 (UTC). Review them within 15 days. Prevented spam messages. Sender: temu_pro",
+      "bodyPreview": "Review These Messages - 1 messages are being held for you to review as of 24/05/2026 13:21:10 (UTC). Prevented spam messages. Sender: temu_pro",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "_mailbox": "pets",
       "_category": "OTHER"
     },
     {
@@ -58,7 +75,7 @@
       "from": {
         "emailAddress": {
           "address": "boss@news-hb.hugoboss.com",
-          "name": "boss@news-hb.hugoboss.com"
+          "name": "Hugo Boss"
         }
       },
       "receivedDateTime": "2026-05-24T13:16:33.000Z",
@@ -71,11 +88,11 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnUAAA=",
-      "subject": "Boek slim, voeg vooraf eigen risico dekking toe",
+      "subject": "🛡️Boek slim, voeg vooraf eigen risico dekking toe",
       "from": {
         "emailAddress": {
           "address": "newsletter@holidaycars.com",
-          "name": "newsletter@holidaycars.com"
+          "name": "Holiday Cars"
         }
       },
       "receivedDateTime": "2026-05-24T11:51:04.000Z",
