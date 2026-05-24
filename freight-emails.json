@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T11:08:59Z",
+  "updated": "2026-05-24T11:23:43Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAaPFGUYAAA=",
@@ -20,7 +20,7 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAaPFGUZAAA=",
-      "subject": "⌛ ΛΗΓΕΙ ΑΥΡΙΟ: αναβαθμίστε τώρα και πάρτε έκπτωση 70%",
+      "subject": "⌛ LHGEI AURИО: αναβαθμίστε τώρα και πάρτε έκπτωση 70%",
       "from": {
         "emailAddress": {
           "address": "announce2@myheritage.com",
@@ -33,24 +33,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFGUZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
-    },
-    {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAaPFGUaAAA=",
-      "subject": "Last call: Bent u klaar om het over te dragen?",
-      "from": {
-        "emailAddress": {
-          "address": "kurt@familyfirst.be",
-          "name": "Kurt"
-        }
-      },
-      "receivedDateTime": "2026-05-24T07:11:25.000Z",
-      "bodyPreview": "Beste Jeff  Wat betekent het om de overdracht van uw familiebedrijf goed aan te pakken voor uzelf uw familie en de toekomst van het bedrijf?",
-      "hasAttachments": false,
-      "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFGUaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "JUNK"
     }
   ]
 }
