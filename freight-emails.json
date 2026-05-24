@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T13:24:40Z",
+  "updated": "2026-05-24T13:39:24Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnWAAA=",
@@ -7,16 +7,16 @@
       "from": {
         "emailAddress": {
           "address": "quarantine@messaging.microsoft.com",
-          "name": "Microsoft 365 Security"
+          "name": "Microsoft 365"
         }
       },
       "receivedDateTime": "2026-05-24T13:21:30.000Z",
-      "bodyPreview": "Review These Messages\r\n1 messages are being held for you to review as of 24/05/2026 13:21:10 (UTC).\r\nReview them within 15 days of the received date by going to the Quarantine page in the Security Center.\r\nPrevented spam messages\r\nSender:         temu_pro",
+      "bodyPreview": "Review These Messages\r\n1 messages are being held for you to review as of 24/05/2026 13:21:10 (UTC).\r\nReview them within 15 days of the received date by going to the Quarantine page in the Security Center.\r\nPrevented spam messages\r\nSender: temu_pro",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnVAAA=",
@@ -33,7 +33,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "OTHER"
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnUAAA=",
@@ -41,7 +41,7 @@
       "from": {
         "emailAddress": {
           "address": "newsletter@holidaycars.com",
-          "name": "HolidayCars"
+          "name": "Holiday Cars"
         }
       },
       "receivedDateTime": "2026-05-24T11:51:04.000Z",
