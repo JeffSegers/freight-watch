@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T14:40:27Z",
+  "updated": "2026-05-24T14:55:55Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnYAAA=",
@@ -41,16 +41,16 @@
       "from": {
         "emailAddress": {
           "address": "webmaster@skyfast.be",
-          "name": "Skyfast Webmaster"
+          "name": "Skyfast Website"
         }
       },
       "receivedDateTime": "2026-05-24T13:43:05.000Z",
-      "bodyPreview": "Preferred Language: English | Quotenumber 20260524154300 | Cargo Description: (Russian text - possible spam submission)",
+      "bodyPreview": "Preferred Language English Quotenumber 20260524154300 Cargo Information Cargo Description: [spam content]",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKB6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "QUOTE"
+      "_category": "AWB"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnWAAA=",
@@ -62,7 +62,7 @@
         }
       },
       "receivedDateTime": "2026-05-24T13:21:30.000Z",
-      "bodyPreview": "Review These Messages - 1 messages are being held for you to review as of 24/05/2026 13:21:10 (UTC). Prevented spam messages. Sender: temu_pro",
+      "bodyPreview": "Review These Messages 1 messages are being held for you to review as of 24/05/2026 13:21:10 (UTC). Prevented spam messages Sender: temu_pro",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -88,11 +88,11 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnUAAA=",
-      "subject": "🛡️Boek slim, voeg vooraf eigen risico dekking toe",
+      "subject": "Boek slim, voeg vooraf eigen risico dekking toe",
       "from": {
         "emailAddress": {
           "address": "newsletter@holidaycars.com",
-          "name": "Holiday Cars"
+          "name": "HolidayCars"
         }
       },
       "receivedDateTime": "2026-05-24T11:51:04.000Z",
