@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T15:10:00Z",
+  "updated": "2026-05-24T15:24:37Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAaPFGUiAAA=",
@@ -20,7 +20,7 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAaPFGUhAAA=",
-      "subject": "The Hidden Comfort of the 'Red Pill' and 1 more",
+      "subject": "The Hidden Comfort of the Red Pill and 1 more",
       "from": {
         "emailAddress": {
           "address": "no-reply@substack.com",
@@ -32,7 +32,7 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFGUhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "_mailbox": "pets",
       "_category": "JUNK"
     },
     {
@@ -41,15 +41,15 @@
       "from": {
         "emailAddress": {
           "address": "webmaster@skyfast.be",
-          "name": "Skyfast Website"
+          "name": "Skyfast Webmaster"
         }
       },
       "receivedDateTime": "2026-05-24T13:43:05.000Z",
-      "bodyPreview": "Preferred Language English  Quotenumber 20260524154300 Cargo Information Cargo Description: ...",
+      "bodyPreview": "Preferred Language English Quotenumber 20260524154300 Cargo Information Cargo Description: spam content",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKB6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "_mailbox": "pets",
       "_category": "AWB"
     },
     {
@@ -62,7 +62,7 @@
         }
       },
       "receivedDateTime": "2026-05-24T13:21:30.000Z",
-      "bodyPreview": "Review These Messages 1 messages are being held for you to review as of 24/05/2026 13:21:10 (UTC). Prevented spam messages Sender: temu_pro",
+      "bodyPreview": "Review These Messages 1 messages are being held for you to review as of 24/05/2026 13:21:10 (UTC).",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFGUgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -83,7 +83,7 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFGUfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "_mailbox": "pets",
       "_category": "OTHER"
     },
     {
@@ -92,7 +92,7 @@
       "from": {
         "emailAddress": {
           "address": "newsletter@holidaycars.com",
-          "name": "HolidayCars"
+          "name": "Holiday Cars"
         }
       },
       "receivedDateTime": "2026-05-24T11:51:04.000Z",
@@ -100,7 +100,7 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFGUeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "_mailbox": "pets",
       "_category": "JUNK"
     }
   ]
