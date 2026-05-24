@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T12:39:17Z",
+  "updated": "2026-05-24T12:53:57Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnUAAA=",
@@ -34,23 +34,6 @@
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFGUYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
       "_category": "JUNK"
-    },
-    {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAaPFGUZAAA=",
-      "subject": "⌛ ΛΗΓΕΙ ΑΥΡΙΟ: αναβαθμίστε τώρα και πάρτε έκπτωση 70%",
-      "from": {
-        "emailAddress": {
-          "address": "announce2@myheritage.com",
-          "name": "MyHeritage"
-        }
-      },
-      "receivedDateTime": "2026-05-24T08:47:54.000Z",
-      "bodyPreview": "Περισσότεροι τρόποι να εξερευνήσετε τις ρίζες σας",
-      "hasAttachments": false,
-      "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFGUZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
     }
   ]
 }
