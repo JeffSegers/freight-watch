@@ -1,6 +1,23 @@
 {
-  "updated": "2026-05-26T23:08:51Z",
+  "updated": "2026-05-25T23:24:05Z",
   "emails": [
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoFAAA=",
+      "subject": "Pet-Centric Travel: The Missing Veterinary Standard in the Growing Pet Travel Industry",
+      "from": {
+        "emailAddress": {
+          "address": "newsletters-noreply@linkedin.com",
+          "name": "LinkedIn Newsletter"
+        }
+      },
+      "receivedDateTime": "2026-05-25T23:10:31.000Z",
+      "bodyPreview": "As pet travel services, accessories, technology, and relocation support expand,",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
+      "_category": "JUNK"
+    },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoEAAA=",
       "subject": "LPZCVI is your verification code",
@@ -11,29 +28,12 @@
         }
       },
       "receivedDateTime": "2026-05-25T21:36:22.000Z",
-      "bodyPreview": "U ontvangt niet vaak e-mail van noreply+ef9cf3b@id.atlassian.com. Ontdek waarom dit belangrijk is\r\n________________________________\r\nBetter collaboration is a few clicks away!\r\n\r\nHi jeff.segers,\r\n\r\nYour verification code is:\r\n\r\nLPZCVI\r\n\r\nEnter this verifi",
+      "bodyPreview": "Better collaboration is a few clicks away! Hi jeff.segers, Your verification code is: LPZCVI",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
       "_category": "JUNK"
-    },
-    {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoDAAA=",
-      "subject": "AW: Transport live animals 28 may",
-      "from": {
-        "emailAddress": {
-          "address": "moritz@BIOTRANSLOGISTICS.COM",
-          "name": "Moritz Martin"
-        }
-      },
-      "receivedDateTime": "2026-05-25T19:18:16.000Z",
-      "bodyPreview": "Hi Jeff,\r\n\r\nI will share the contact details with you tomorrow.\r\n\r\nThanks\r\nMoritz\r\n\r\nMoritz Martin\r\nKey Account Manager\r\nFrankfurt, Germany\r\nt: 49 (0) 69 1201 86520",
-      "hasAttachments": false,
-      "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "AVI"
     }
   ]
 }
