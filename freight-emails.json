@@ -1,22 +1,39 @@
 {
-  "updated": "2026-05-25T10:55:37Z",
+  "updated": "2026-05-25T11:10:55Z",
   "emails": [
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnwAAA=",
+      "subject": "Pharma cargo shifts toward smarter cold chain models",
+      "from": {
+        "emailAddress": {
+          "address": "comms@azurainternational.com",
+          "name": "comms@azurainternational.com"
+        }
+      },
+      "receivedDateTime": "2026-05-25T11:03:20.000Z",
+      "bodyPreview": "Pharmaceutical airfreight is becoming more segmented, with passive cooling systems gaining ground on standard 2-8C shipments while active containers are reserved for higher-risk therapies.",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "jeff",
+      "_category": "AWB"
+    },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnvAAA=",
       "subject": "European Commission approves EUR 13 million in aid for French fishers",
       "from": {
         "emailAddress": {
           "address": "news@seafoodsource.com",
-          "name": "SeafoodSource News"
+          "name": "news@seafoodsource.com"
         }
       },
       "receivedDateTime": "2026-05-25T10:30:56.000Z",
-      "bodyPreview": "SeafoodSource News  Monday, 25 May, 2026  FEATURED NEWS  Biological challenges, restructuring costs hit Grieg Seafood Q1 earnings...",
+      "bodyPreview": "SeafoodSource News - Monday, 25 May, 2026. FEATURED NEWS: Biological challenges, restructuring costs hit Grieg Seafood's Q1 earnings during 'transitionary quarter'.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "JUNK"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnuAAA=",
@@ -33,7 +50,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "JUNK"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEntAAA=",
@@ -62,11 +79,11 @@
         }
       },
       "receivedDateTime": "2026-05-25T09:22:44.000Z",
-      "bodyPreview": "Dear Jeff, Hope you are doing great. Please find below the links to our company presentation: Website: https://www.logistiqo.com/en Video: https://youtu.be...",
+      "bodyPreview": "Dear Jeff, Hope you are doing great. Please find below the links to our company presentation: Website: https://www.logistiqo.com/en Video: https://youtu.be",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "OTHER"
     },
     {
@@ -79,12 +96,12 @@
         }
       },
       "receivedDateTime": "2026-05-25T09:06:36.000Z",
-      "bodyPreview": "[JeffSegers/freight-watch] pages build and deployment workflow run failed.",
+      "bodyPreview": "[JeffSegers/freight-watch] pages build and deployment workflow run failed on main branch (a4bc8f1)",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "JUNK"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnsAAA=",
@@ -92,7 +109,7 @@
       "from": {
         "emailAddress": {
           "address": "info@learn.ncoi.be",
-          "name": "NCOI Opleidingen"
+          "name": "NCOI"
         }
       },
       "receivedDateTime": "2026-05-25T09:03:17.000Z",
@@ -101,7 +118,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "JUNK"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnrAAA=",
@@ -113,7 +130,7 @@
         }
       },
       "receivedDateTime": "2026-05-25T08:50:06.000Z",
-      "bodyPreview": "Notification of Arrival",
+      "bodyPreview": "Notification of Arrival - AWB 014-79482001",
       "hasAttachments": true,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -126,11 +143,11 @@
       "from": {
         "emailAddress": {
           "address": "ksj93@jnblogis.com",
-          "name": "Kim Seongjin - JNB Logistics"
+          "name": "JNB Logistics"
         }
       },
       "receivedDateTime": "2026-05-25T08:37:15.000Z",
-      "bodyPreview": "REMINDER PLEASE CHECK AND REVERT",
+      "bodyPreview": "REMINDER PLEASE CHECK AND REVERT - Korea/China/Vietnam branch - JNB LOGISTICS CO., LTD (HCM Branch)",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -147,7 +164,7 @@
         }
       },
       "receivedDateTime": "2026-05-25T08:29:15.000Z",
-      "bodyPreview": "Notification of Arrival",
+      "bodyPreview": "Notification of Arrival - AWB 016-20601980",
       "hasAttachments": true,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -156,7 +173,7 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnoAAA=",
-      "subject": "ΛΗΓΕΙ ΣΗΜΕΡΑ: αναβαθμίστε τώρα και πάρτε έκπτωση 70%",
+      "subject": "⏰ ΛΗΓΕΙ ΣΗΜΕΡΑ: αναβαθμίστε τώρα και πάρτε έκπτωση 70%",
       "from": {
         "emailAddress": {
           "address": "announce2@myheritage.com",
@@ -164,12 +181,12 @@
         }
       },
       "receivedDateTime": "2026-05-25T08:29:03.000Z",
-      "bodyPreview": "Περισσότεροι τρόποι να εξερευνήσετε τις ρίζες σας",
+      "bodyPreview": "Explore your roots with MyHeritage",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "JUNK"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnnAAA=",
@@ -177,7 +194,7 @@
       "from": {
         "emailAddress": {
           "address": "insidesales1@aeindia.co.in",
-          "name": "AE India - Inside Sales"
+          "name": "AE India"
         }
       },
       "receivedDateTime": "2026-05-25T07:40:56.000Z",
@@ -198,28 +215,11 @@
         }
       },
       "receivedDateTime": "2026-05-25T07:11:30.000Z",
-      "bodyPreview": "We can see a new set in your future... and we think you will love these.",
+      "bodyPreview": "We can see a new set in your future... and we think you'll love these. Can you see your next build below? Shop now",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "JUNK"
-    },
-    {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnlAAA=",
-      "subject": "Finnair's Seattle route reopens on 26 May 2026",
-      "from": {
-        "emailAddress": {
-          "address": "cargocomms@email.finnair.com",
-          "name": "Finnair Cargo"
-        }
-      },
-      "receivedDateTime": "2026-05-25T07:00:54.000Z",
-      "bodyPreview": "If you are having trouble viewing this newsletter, open it in your browser. Dear Jeff, We are delighted to inform you that our Seattle route opens again on Tuesday, 26th May 2026.",
-      "hasAttachments": false,
-      "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
       "_category": "JUNK"
     }
   ]
