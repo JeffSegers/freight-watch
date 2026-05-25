@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T10:42:11Z",
+  "updated": "2026-05-25T10:55:37Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnvAAA=",
@@ -7,11 +7,11 @@
       "from": {
         "emailAddress": {
           "address": "news@seafoodsource.com",
-          "name": "news@seafoodsource.com"
+          "name": "SeafoodSource News"
         }
       },
       "receivedDateTime": "2026-05-25T10:30:56.000Z",
-      "bodyPreview": "SeafoodSource News  Monday, 25 May, 2026  FEATURED NEWS  Biological challenges, restructuring costs hit Grieg Seafood's Q1 earnings during transitionary quarter BY JASON HOLLAND | CONTRIBUTING EDITOR FROM THE SOURCE Thanks to the METSAF, Franc",
+      "bodyPreview": "SeafoodSource News  Monday, 25 May, 2026  FEATURED NEWS  Biological challenges, restructuring costs hit Grieg Seafood Q1 earnings...",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -24,7 +24,7 @@
       "from": {
         "emailAddress": {
           "address": "invitations@linkedin.com",
-          "name": "invitations@linkedin.com"
+          "name": "LinkedIn"
         }
       },
       "receivedDateTime": "2026-05-25T10:27:44.000Z",
@@ -33,7 +33,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEntAAA=",
@@ -41,11 +41,11 @@
       "from": {
         "emailAddress": {
           "address": "Letspartner@ecuworldwide.com",
-          "name": "Letspartner@ecuworldwide.com"
+          "name": "ECU Worldwide"
         }
       },
       "receivedDateTime": "2026-05-25T09:34:47.000Z",
-      "bodyPreview": "If you are unable to view this mailer, please click here. Know more about the GDPR privacy policy. 2026 ECU Worldwide. All rights reserved. Click Here to unsubscribe from this newsletter.",
+      "bodyPreview": "If you are unable to view this mailer, please click here. Know more about the GDPR privacy policy. Click Here to unsubscribe from this newsletter.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEntAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -58,15 +58,15 @@
       "from": {
         "emailAddress": {
           "address": "amarildo@logistiqo.com",
-          "name": "amarildo@logistiqo.com"
+          "name": "Amarildo"
         }
       },
       "receivedDateTime": "2026-05-25T09:22:44.000Z",
-      "bodyPreview": "Dear Jeff, Hope you are doing great. Please find below the links to our company presentation: Website: https://www.logistiqo.com/en Video: https://youtu...",
+      "bodyPreview": "Dear Jeff, Hope you are doing great. Please find below the links to our company presentation: Website: https://www.logistiqo.com/en Video: https://youtu.be...",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "_mailbox": "pets",
       "_category": "OTHER"
     },
     {
@@ -75,11 +75,11 @@
       "from": {
         "emailAddress": {
           "address": "notifications@github.com",
-          "name": "notifications@github.com"
+          "name": "GitHub"
         }
       },
       "receivedDateTime": "2026-05-25T09:06:36.000Z",
-      "bodyPreview": "[JeffSegers/freight-watch] pages build and deployment workflow run failed on main branch.",
+      "bodyPreview": "[JeffSegers/freight-watch] pages build and deployment workflow run failed.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -92,7 +92,7 @@
       "from": {
         "emailAddress": {
           "address": "info@learn.ncoi.be",
-          "name": "info@learn.ncoi.be"
+          "name": "NCOI Opleidingen"
         }
       },
       "receivedDateTime": "2026-05-25T09:03:17.000Z",
@@ -101,7 +101,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnrAAA=",
@@ -109,7 +109,7 @@
       "from": {
         "emailAddress": {
           "address": "ops835.bru@wfs.aero",
-          "name": "ops835.bru@wfs.aero"
+          "name": "WFS Brussels"
         }
       },
       "receivedDateTime": "2026-05-25T08:50:06.000Z",
@@ -126,7 +126,7 @@
       "from": {
         "emailAddress": {
           "address": "ksj93@jnblogis.com",
-          "name": "ksj93@jnblogis.com"
+          "name": "Kim Seongjin - JNB Logistics"
         }
       },
       "receivedDateTime": "2026-05-25T08:37:15.000Z",
@@ -143,7 +143,7 @@
       "from": {
         "emailAddress": {
           "address": "ops832.bru@wfs.aero",
-          "name": "ops832.bru@wfs.aero"
+          "name": "WFS Brussels"
         }
       },
       "receivedDateTime": "2026-05-25T08:29:15.000Z",
@@ -156,15 +156,15 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnoAAA=",
-      "subject": "⏰ ΛΗΓΕΙ ΣΗΜΕΡΑ: αναβαθμίστε τώρα και πάρτε έκπτωση 70%",
+      "subject": "ΛΗΓΕΙ ΣΗΜΕΡΑ: αναβαθμίστε τώρα και πάρτε έκπτωση 70%",
       "from": {
         "emailAddress": {
           "address": "announce2@myheritage.com",
-          "name": "announce2@myheritage.com"
+          "name": "MyHeritage"
         }
       },
       "receivedDateTime": "2026-05-25T08:29:03.000Z",
-      "bodyPreview": "Explore your roots with MyHeritage",
+      "bodyPreview": "Περισσότεροι τρόποι να εξερευνήσετε τις ρίζες σας",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -177,7 +177,7 @@
       "from": {
         "emailAddress": {
           "address": "insidesales1@aeindia.co.in",
-          "name": "insidesales1@aeindia.co.in"
+          "name": "AE India - Inside Sales"
         }
       },
       "receivedDateTime": "2026-05-25T07:40:56.000Z",
@@ -194,11 +194,11 @@
       "from": {
         "emailAddress": {
           "address": "Noreply@e.crm.lego.com",
-          "name": "Noreply@e.crm.lego.com"
+          "name": "LEGO"
         }
       },
       "receivedDateTime": "2026-05-25T07:11:30.000Z",
-      "bodyPreview": "View online | My Account. We can see a new set in your future... and we think you'll love these. Can you see your next build below? Shop now",
+      "bodyPreview": "We can see a new set in your future... and we think you will love these.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -211,7 +211,7 @@
       "from": {
         "emailAddress": {
           "address": "cargocomms@email.finnair.com",
-          "name": "cargocomms@email.finnair.com"
+          "name": "Finnair Cargo"
         }
       },
       "receivedDateTime": "2026-05-25T07:00:54.000Z",
