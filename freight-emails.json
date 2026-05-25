@@ -1,9 +1,26 @@
 {
-  "updated": "2026-05-25T21:34:41Z",
+  "updated": "2026-05-25T21:40:00Z",
   "emails": [
     {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoEAAA=",
+      "subject": "LPZCVI is your verification code",
+      "from": {
+        "emailAddress": {
+          "address": "noreply+ef9cf3b@id.atlassian.com",
+          "name": "Atlassian"
+        }
+      },
+      "receivedDateTime": "2026-05-25T21:36:22.000Z",
+      "bodyPreview": "Better collaboration is a few clicks away! Hi jeff.segers, Your verification code is: LPZCVI Enter this verifi",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "jeff",
+      "_category": "JUNK"
+    },
+    {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoDAAA=",
-      "subject": "AW: Transport live animals 28 may ",
+      "subject": "AW: Transport live animals 28 may",
       "from": {
         "emailAddress": {
           "address": "moritz@BIOTRANSLOGISTICS.COM",
@@ -11,11 +28,11 @@
         }
       },
       "receivedDateTime": "2026-05-25T19:18:16.000Z",
-      "bodyPreview": "Hi Jeff,\r\n\r\nI will share the contact details with you tomorrow.\r\n\r\nThanks\r\nMoritz\r\n\r\nMoritz Martin\r\nKey Account Manager\r\nFrankfurt, Germany",
+      "bodyPreview": "Hi Jeff, I will share the contact details with you tomorrow. Thanks Moritz Martin Key Account Manager Frankfurt, Germany",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "_mailbox": "pets",
       "_category": "AVI"
     }
   ]
