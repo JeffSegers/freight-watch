@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T11:41:50Z",
+  "updated": "2026-05-25T11:56:25Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnxAAA=",
@@ -15,7 +15,7 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "JUNK"
     },
     {
@@ -24,11 +24,11 @@
       "from": {
         "emailAddress": {
           "address": "frank@factorymadecn.com",
-          "name": "Frank (Factory Made CN)"
+          "name": "Frank"
         }
       },
       "receivedDateTime": "2026-05-25T11:18:02.000Z",
-      "bodyPreview": "Dear manager: Unqi Technology Co., Ltd., we pride ourselves on offering advanced, reliable outdoor camping gear and pet supplies designed to enhance every pet owner's experience.",
+      "bodyPreview": "Dear manager: Unqi Technology Co., Ltd., we pride ourselves on offering advanced,reliable outdoor camping gear and pet supplies designed to enhance every pet owner's experience.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -41,7 +41,7 @@
       "from": {
         "emailAddress": {
           "address": "aha@sunredsz.com",
-          "name": "Sunred SZ"
+          "name": "SunRed"
         }
       },
       "receivedDateTime": "2026-05-25T11:10:26.000Z",
@@ -79,11 +79,11 @@
         }
       },
       "receivedDateTime": "2026-05-25T10:30:56.000Z",
-      "bodyPreview": "SeafoodSource News. Monday, 25 May, 2026. FEATURED NEWS. Biological challenges, restructuring costs hit Grieg Seafood's Q1 earnings during 'transitionary quarter'. BY JASON HOLLAND | CONTRIBUTING EDITOR",
+      "bodyPreview": "SeafoodSource News. Monday, 25 May, 2026. FEATURED NEWS. Biological challenges, restructuring costs hit Grieg Seafood Q1 earnings during transitionary quarter.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "OTHER"
     },
     {
@@ -96,11 +96,11 @@
         }
       },
       "receivedDateTime": "2026-05-25T10:27:44.000Z",
-      "bodyPreview": "Amarildo, Sales Manager from Logistiqo is waiting for your response",
+      "bodyPreview": "Amarildo, Sales Manager from Logistiqo is waiting for your response.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "OTHER"
     },
     {
@@ -117,7 +117,7 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEntAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "JUNK"
     },
     {
@@ -126,15 +126,15 @@
       "from": {
         "emailAddress": {
           "address": "amarildo@logistiqo.com",
-          "name": "Amarildo (Logistiqo)"
+          "name": "Amarildo"
         }
       },
       "receivedDateTime": "2026-05-25T09:22:44.000Z",
-      "bodyPreview": "Dear Jeff, Hope you are doing great. Please find below the links to our company presentation: Website: https://www.logistiqo.com/en Video: https://youtu.be...",
+      "bodyPreview": "Dear Jeff, Hope you are doing great. Please find below the links to our company presentation: Website: https://www.logistiqo.com/en Video: https://youtu.be",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "_mailbox": "pets",
       "_category": "OTHER"
     },
     {
@@ -147,20 +147,20 @@
         }
       },
       "receivedDateTime": "2026-05-25T09:06:36.000Z",
-      "bodyPreview": "[JeffSegers/freight-watch] pages build and deployment workflow run failed on main branch.",
+      "bodyPreview": "[JeffSegers/freight-watch] pages build and deployment workflow run failed on main branch (a4bc8f1).",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "JUNK"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnsAAA=",
-      "subject": "Prompt-engineering voor business- en functionele analisten  | De kracht van sterke teams  | Prijsstrategie  | Opleiding",
+      "subject": "Prompt-engineering voor business- en functionele analisten | De kracht van sterke teams | Prijsstrategie | Opleiding",
       "from": {
         "emailAddress": {
           "address": "info@learn.ncoi.be",
-          "name": "NCOI Learning"
+          "name": "NCOI"
         }
       },
       "receivedDateTime": "2026-05-25T09:03:17.000Z",
@@ -168,7 +168,7 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "OTHER"
     },
     {
@@ -177,11 +177,11 @@
       "from": {
         "emailAddress": {
           "address": "ops835.bru@wfs.aero",
-          "name": "WFS Brussels"
+          "name": "WFS BRU Ops"
         }
       },
       "receivedDateTime": "2026-05-25T08:50:06.000Z",
-      "bodyPreview": "Notification of Arrival for AWB 014-79482001",
+      "bodyPreview": "Notification of Arrival for AWB 014-79482001.",
       "hasAttachments": true,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -194,11 +194,11 @@
       "from": {
         "emailAddress": {
           "address": "ksj93@jnblogis.com",
-          "name": "JNB Logistics (Kim Seongjin)"
+          "name": "Kim Seongjin - JNB Logistics"
         }
       },
       "receivedDateTime": "2026-05-25T08:37:15.000Z",
-      "bodyPreview": "REMINDER PLEASE CHECK AND REVERT. Korea / China / Vietnam branch. JNB LOGISTICS CO., LTD (HCM Branch). 6th Floor, No. 132-134-136 Ngo Tat To Street, Thanh My Tay Ward",
+      "bodyPreview": "REMINDER PLEASE CHECK AND REVERT. JNB LOGISTICS CO., LTD (HCM Branch) - Korea / China / Vietnam branch.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -211,11 +211,11 @@
       "from": {
         "emailAddress": {
           "address": "ops832.bru@wfs.aero",
-          "name": "WFS Brussels"
+          "name": "WFS BRU Ops"
         }
       },
       "receivedDateTime": "2026-05-25T08:29:15.000Z",
-      "bodyPreview": "Notification of Arrival for AWB 016-20601980",
+      "bodyPreview": "Notification of Arrival for AWB 016-20601980.",
       "hasAttachments": true,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -232,29 +232,12 @@
         }
       },
       "receivedDateTime": "2026-05-25T08:29:03.000Z",
-      "bodyPreview": "Promotional email from MyHeritage in Greek - discount offer.",
+      "bodyPreview": "Discover more ways to explore your roots.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
       "_category": "OTHER"
-    },
-    {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnnAAA=",
-      "subject": "EXW RATE REQUEST FROM BELGIUM TO BOM//AIR//REYNAERS//ENQ26000589//",
-      "from": {
-        "emailAddress": {
-          "address": "insidesales1@aeindia.co.in",
-          "name": "AE India Inside Sales"
-        }
-      },
-      "receivedDateTime": "2026-05-25T07:40:56.000Z",
-      "bodyPreview": "Dear All, Please provide your best rate from Belgium to BOM via air on EXW term. Kindly provide your rate along with routing, validity, transit time and tentative flight schedule.",
-      "hasAttachments": true,
-      "isRead": true,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "QUOTE"
     }
   ]
 }
