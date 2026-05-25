@@ -1,13 +1,47 @@
 {
-  "updated": "2026-05-25T09:05:17Z",
+  "updated": "2026-05-25T09:26:24Z",
   "emails": [
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKCCAAA=",
+      "subject": "[JeffSegers/freight-watch] Run failed: pages build and deployment - main (a4bc8f1)",
+      "from": {
+        "emailAddress": {
+          "address": "notifications@github.com",
+          "name": "GitHub"
+        }
+      },
+      "receivedDateTime": "2026-05-25T09:06:36.000Z",
+      "bodyPreview": "pages build and deployment workflow run failed. pages build and deployment - main",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
+      "_category": "OTHER"
+    },
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnsAAA=",
+      "subject": "Prompt-engineering voor business- en functionele analisten  | De kracht van sterke teams  | Prijsstrategie  | Opleiding",
+      "from": {
+        "emailAddress": {
+          "address": "info@learn.ncoi.be",
+          "name": "NCOI"
+        }
+      },
+      "receivedDateTime": "2026-05-25T09:03:17.000Z",
+      "bodyPreview": "Sta sterk in Leadership en Business Management. Prompt-engineering voor business- en functionele analisten. Optimaliseer en automatiseer je analysewerk met behulp van AI",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
+      "_category": "OTHER"
+    },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnrAAA=",
       "subject": "Arrival Notice For 014-79482001",
       "from": {
         "emailAddress": {
           "address": "ops835.bru@wfs.aero",
-          "name": "ops835.bru@wfs.aero"
+          "name": "WFS BRU"
         }
       },
       "receivedDateTime": "2026-05-25T08:50:06.000Z",
@@ -24,7 +58,7 @@
       "from": {
         "emailAddress": {
           "address": "ksj93@jnblogis.com",
-          "name": "ksj93@jnblogis.com"
+          "name": "JNB Logistics"
         }
       },
       "receivedDateTime": "2026-05-25T08:37:15.000Z",
@@ -41,7 +75,7 @@
       "from": {
         "emailAddress": {
           "address": "ops832.bru@wfs.aero",
-          "name": "ops832.bru@wfs.aero"
+          "name": "WFS BRU"
         }
       },
       "receivedDateTime": "2026-05-25T08:29:15.000Z",
@@ -54,20 +88,20 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnoAAA=",
-      "subject": "ΛΗΓΕΙ ΣΗΜΕΡΑ: αναβαθμίστε τώρα και πάρτε έκπτωση 70%",
+      "subject": "LHGEI SHMERA: anabathmiste tora kai parte ekptosi 70%",
       "from": {
         "emailAddress": {
           "address": "announce2@myheritage.com",
-          "name": "announce2@myheritage.com"
+          "name": "MyHeritage"
         }
       },
       "receivedDateTime": "2026-05-25T08:29:03.000Z",
-      "bodyPreview": "Περισσότεροι τρόποι να εξερευνήσετε τις ρίζες σας",
+      "bodyPreview": "Perissoterous tropous na eksorevniete tis rizes sas",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "JUNK"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnnAAA=",
@@ -75,7 +109,7 @@
       "from": {
         "emailAddress": {
           "address": "insidesales1@aeindia.co.in",
-          "name": "insidesales1@aeindia.co.in"
+          "name": "AE India"
         }
       },
       "receivedDateTime": "2026-05-25T07:40:56.000Z",
@@ -92,11 +126,11 @@
       "from": {
         "emailAddress": {
           "address": "Noreply@e.crm.lego.com",
-          "name": "Noreply@e.crm.lego.com"
+          "name": "LEGO"
         }
       },
       "receivedDateTime": "2026-05-25T07:11:30.000Z",
-      "bodyPreview": "We can see a new set in your future... and we think you will love these.",
+      "bodyPreview": "We can see a new set in your future... and we think you will love these. Can you see your next build below?",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -109,16 +143,16 @@
       "from": {
         "emailAddress": {
           "address": "cargocomms@email.finnair.com",
-          "name": "cargocomms@email.finnair.com"
+          "name": "Finnair Cargo"
         }
       },
       "receivedDateTime": "2026-05-25T07:00:54.000Z",
-      "bodyPreview": "Dear Jeff, We are delighted to inform you that our Seattle route opens again on Tuesday, 26th May 2026. The route will be operated with Airbus A330 three times a week.",
+      "bodyPreview": "If you are having trouble viewing this newsletter, open it in your browser. Dear Jeff, We are delighted to inform you that our Seattle route opens again on Tuesday, 26th May 2026.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "OTHER"
+      "_mailbox": "pets",
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKCBAAA=",
@@ -126,33 +160,16 @@
       "from": {
         "emailAddress": {
           "address": "aha@sunredsz.com",
-          "name": "aha@sunredsz.com"
+          "name": "Sunred"
         }
       },
       "receivedDateTime": "2026-05-25T05:37:08.000Z",
-      "bodyPreview": "We provide exclusive, ultra-low discounted rates for DHL, UPS, and FedEx. If your business imports goods from China, we can help significantly reduce your logistics costs.",
+      "bodyPreview": "We provide exclusive, ultra-low discounted rates for DHL, UPS, and FedEx. Hi! If your business imports goods from China, we can help significantly reduce your logistics costs.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
       "_category": "AWB"
-    },
-    {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEnkAAA=",
-      "subject": "Microsoft 365 security: You have messages in quarantine",
-      "from": {
-        "emailAddress": {
-          "address": "quarantine@messaging.microsoft.com",
-          "name": "quarantine@messaging.microsoft.com"
-        }
-      },
-      "receivedDateTime": "2026-05-25T05:13:58.000Z",
-      "bodyPreview": "Review These Messages: 1 messages are being held for you to review as of 25/05/2026 05:10:19 (UTC). Prevented phish messages.",
-      "hasAttachments": false,
-      "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEnkAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "OTHER"
     }
   ]
 }
