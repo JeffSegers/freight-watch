@@ -1,21 +1,55 @@
 {
-  "updated": "2026-05-26T07:41:14Z",
+  "updated": "2026-05-26T07:50:00Z",
   "emails": [
     {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoVAAA=",
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoXAAA=",
+      "subject": "Re: 25/05 - IMPORT BURUNDI // AI260001369",
+      "from": {
+        "emailAddress": {
+          "address": "joost@vermeulen.be",
+          "name": "joost@vermeulen.be"
+        }
+      },
+      "receivedDateTime": "2026-05-26T07:46:55.000Z",
+      "bodyPreview": "Komen pas morgen\r\nMet vriendelijke groet\r\n\r\nOp 26 mei 2026 om 09:35 heeft Lennert Smout <lennert@skyfast.be> het volgende geschreven:\r\n\r\nDag Joost,\r\n\r\nDe overige 26 stuks zijn nog niet gepunterd. We houden u op de hoogte.",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "jeff",
+      "_category": "OTHER"
+    },
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoWAAA=",
+      "subject": "SPOT RATE TO EUR",
+      "from": {
+        "emailAddress": {
+          "address": "yoyo.zhang@sglog-group.com",
+          "name": "yoyo.zhang@sglog-group.com"
+        }
+      },
+      "receivedDateTime": "2026-05-26T07:39:54.000Z",
+      "bodyPreview": "Dear Shipping Professional, Good day ahead. Here are the latest updates regarding our contract space and spot rates to Europe, which may support your sales efforts. Whether you need sea or air freight services, feel free to contact me for competitive rates.",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "jeff",
+      "_category": "OTHER"
+    },
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5AMAAA=",
       "subject": "TUI Fuel Surcharge Update Effective 1 June 2026",
       "from": {
         "emailAddress": {
           "address": "sales@ecsgroup.aero",
-          "name": "ECS Group"
+          "name": "sales@ecsgroup.aero"
         }
       },
       "receivedDateTime": "2026-05-26T07:37:02.000Z",
-      "bodyPreview": "Dear Customer, We would like to inform you that, as of 1 June 2026, the fuel surcharge will be updated to €0.55 per CWT. This surcharge will apply to all published and contract rates, based on the first TUI flown date. Should you have any questio",
+      "bodyPreview": "Dear Customer, We would like to inform you that, as of 1 June 2026, the fuel surcharge will be updated to EUR 0.55 per CWT. This surcharge will apply to all published and contract rates, based on the first TUI flown date.",
       "hasAttachments": false,
       "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5AMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
       "_category": "OTHER"
     },
     {
@@ -24,11 +58,11 @@
       "from": {
         "emailAddress": {
           "address": "import@ehs.be",
-          "name": "Tatjana Tanghe"
+          "name": "import@ehs.be"
         }
       },
       "receivedDateTime": "2026-05-26T07:35:34.000Z",
-      "bodyPreview": "Hi, Kan je mij aub wat meer uitleg geven waarom het niet op tijd klaar zal zijn? Dan kan ik terugkoppelen naar de klant. Dank je, Met vriendelijke groeten, Kind regards, Bien cordialement, Tatjana Tanghe Business Unit Manager Import & HR",
+      "bodyPreview": "Hi, Kan je mij aub wat meer uitleg geven waarom het niet op tijd klaar zal zijn? Dan kan ik terugkoppelen naar de klant. Dank je, Met vriendelijke groeten, Tatjana Tanghe, Business Unit Manager Import & HR",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -41,11 +75,11 @@
       "from": {
         "emailAddress": {
           "address": "lennert@Skyfast.be",
-          "name": "Lennert Smout"
+          "name": "lennert@Skyfast.be"
         }
       },
       "receivedDateTime": "2026-05-26T07:35:08.000Z",
-      "bodyPreview": "Dag Joost, De overige 26 stuks zijn nog niet gepunterd. We houden u op de hoogte. Met vriendelijke groeten, Kind regards, Lennert Smout I.F.A. Skyfast N.V.",
+      "bodyPreview": "Dag Joost, De overige 26 stuks zijn nog niet gepunterd. We houden u op de hoogte. Met vriendelijke groeten, Kind regards, Lennert Smout, I.F.A. Skyfast N.V.",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -58,16 +92,16 @@
       "from": {
         "emailAddress": {
           "address": "pets@skyfast.be",
-          "name": "Jeff Segers"
+          "name": "pets@skyfast.be"
         }
       },
       "receivedDateTime": "2026-05-26T07:30:00.000Z",
-      "bodyPreview": "Hi Moritz once you have them please send them when you have them. Jeff From: Moritz Martin <moritz@BIOTRANSLOGISTICS.COM> Sent: Monday, 25 May 2026 21:18 To: Jeff Segers <pets@skyfast.be>",
+      "bodyPreview": "Hi Moritz once you have them please send them when you have them. Jeff",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbkAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5I4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "AVI"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKCPAAA=",
@@ -75,16 +109,16 @@
       "from": {
         "emailAddress": {
           "address": "webmaster@skyfast.be",
-          "name": "Skyfast Webmaster"
+          "name": "webmaster@skyfast.be"
         }
       },
       "receivedDateTime": "2026-05-26T07:28:44.000Z",
-      "bodyPreview": "Preferred Language English Quotenumber 20260526092840 Cargo Information Cargo Description: web-site vodkabet online casino Personal effects?: Dimension of Cargo: Pieces: Length Width Height Weight 13 14 24 55 51",
+      "bodyPreview": "Preferred Language: English. Quotenumber 20260526092840. Cargo Information. Cargo Description: web-site vodkabet online casino. Personal effects?: Dimension of Cargo: Pieces: 13 14 24 55 51",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "AWB"
+      "_category": "QUOTE"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5AKAAA=",
@@ -92,7 +126,7 @@
       "from": {
         "emailAddress": {
           "address": "contact@sib.kapateco.be",
-          "name": "Kapateco"
+          "name": "contact@sib.kapateco.be"
         }
       },
       "receivedDateTime": "2026-05-26T07:25:31.000Z",
@@ -109,11 +143,11 @@
       "from": {
         "emailAddress": {
           "address": "mathias.huybens@voka.be",
-          "name": "Mathias Huybens"
+          "name": "mathias.huybens@voka.be"
         }
       },
       "receivedDateTime": "2026-05-26T07:20:38.000Z",
-      "bodyPreview": "Schrijf je in voor een van onze Golf Tornooien! Beste Jeff, Kom jij 1 of 24 juni 2026 meegolfen met andere ondernemers op de green?",
+      "bodyPreview": "Schrijf je in voor een van onze Golf Tornooien! Kom jij 1 of 24 juni 2026 meegolfen met andere ondernemers op de green?",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5ALAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -126,11 +160,11 @@
       "from": {
         "emailAddress": {
           "address": "Joeri@Skyfast.be",
-          "name": "Joeri Vanderleyden"
+          "name": "Joeri@Skyfast.be"
         }
       },
       "receivedDateTime": "2026-05-26T07:13:14.000Z",
-      "bodyPreview": "Dear all, Has this shipment been sent out to BRU pls? I haven't seen any pre alert. Kindly advise Thx Rgds Joeri Vanderleyden Sales & Operations I.F.A. Skyfast NV",
+      "bodyPreview": "Dear all, Has this shipment been sent out to BRU pls? I haven't seen any pre alert. Kindly advise. Thx. Rgds. Joeri Vanderleyden, Sales & Operations, I.F.A. Skyfast NV",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -143,11 +177,11 @@
       "from": {
         "emailAddress": {
           "address": "Joeri@Skyfast.be",
-          "name": "Joeri Vanderleyden"
+          "name": "Joeri@Skyfast.be"
         }
       },
       "receivedDateTime": "2026-05-26T06:56:45.000Z",
-      "bodyPreview": "Hello Henry, Please find our invoice for this shipment in attachment. Rgds Joeri Vanderleyden Sales & Operations I.F.A. Skyfast NV",
+      "bodyPreview": "Hello Henry, Please find our invoice for this shipment in attachment. Rgds, Joeri Vanderleyden, Sales & Operations, I.F.A. Skyfast NV",
       "hasAttachments": true,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -160,11 +194,11 @@
       "from": {
         "emailAddress": {
           "address": "louise.vancoillie@minfin.fed.be",
-          "name": "Louise Van Coillie"
+          "name": "louise.vancoillie@minfin.fed.be"
         }
       },
       "receivedDateTime": "2026-05-26T06:33:55.000Z",
-      "bodyPreview": "Dag Anne, Ik heb je inderdaad gebeld, bedankt voor je mail. Ik begrijp niet waarom er slechts een zeer klein deel van de gevraagde info wordt bezorgd? De voorraadadministratie RTO en DE werd opgevraagd op 6 mei (deadline 18/5, verlenging tot 20/5)",
+      "bodyPreview": "Dag Anne, Ik heb je inderdaad gebeld, bedankt voor je mail. Ik begrijp niet waarom er slechts een zeer klein deel van de gevraagde info wordt bezorgd? De voorraadadministratie RTO en DE werd opgevraagd op 6 mei (deadline 18/5, verlenging tot 20/5).",
       "hasAttachments": true,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -177,7 +211,7 @@
       "from": {
         "emailAddress": {
           "address": "danny.remmerswaal@hardware-crmpoint.com",
-          "name": "Danny Remmerswaal"
+          "name": "danny.remmerswaal@hardware-crmpoint.com"
         }
       },
       "receivedDateTime": "2026-05-26T06:06:30.000Z",
@@ -194,11 +228,11 @@
       "from": {
         "emailAddress": {
           "address": "eden_olo@olofamilynetwork.com",
-          "name": "Eden OLO"
+          "name": "eden_olo@olofamilynetwork.com"
         }
       },
       "receivedDateTime": "2026-05-26T05:55:43.000Z",
-      "bodyPreview": "Dear jeff.segers@skyfast.be, Hope you are doing well. This is Eden from OLO. We obtained your company contact information through our platform members and learned that your company has an abundant reserve of professional knowledge and rich experience.",
+      "bodyPreview": "Dear jeff.segers@skyfast.be, Hope you are doing well. This is Eden from OLO. We obtained your company contact information through our platform members and learned that your company has an abundant reserve of professional knowledge.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -211,11 +245,11 @@
       "from": {
         "emailAddress": {
           "address": "info@kabelbinders.nl",
-          "name": "Kabelbinders.nl"
+          "name": "info@kabelbinders.nl"
         }
       },
       "receivedDateTime": "2026-05-26T05:30:34.000Z",
-      "bodyPreview": "Maak je voorraad op orde met tijdelijk extra voordeel",
+      "bodyPreview": "Maak je voorraad op orde met tijdelijk extra voordeel. 15% korting op alle gekleurde kabelbinders.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5ADAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -228,11 +262,11 @@
       "from": {
         "emailAddress": {
           "address": "info@newsletter.bruneau.be",
-          "name": "Bruneau"
+          "name": "info@newsletter.bruneau.be"
         }
       },
       "receivedDateTime": "2026-05-26T05:18:49.000Z",
-      "bodyPreview": "Voordeelcode: BE5072 - Kruidenmolen vanaf 99 excl. btw - Gratis levering vanaf 79 excl. btw",
+      "bodyPreview": "Voordeelcode: BE5072. Kruidenmolen vanaf EUR 99 excl. btw. Gratis levering vanaf EUR 79 excl. btw. Voor 16:00 besteld morgen geleverd.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5AEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -245,7 +279,7 @@
       "from": {
         "emailAddress": {
           "address": "noreply@cargolux.com",
-          "name": "Cargolux"
+          "name": "noreply@cargolux.com"
         }
       },
       "receivedDateTime": "2026-05-26T05:06:43.000Z",
@@ -262,7 +296,7 @@
       "from": {
         "emailAddress": {
           "address": "updates-noreply@linkedin.com",
-          "name": "LinkedIn"
+          "name": "updates-noreply@linkedin.com"
         }
       },
       "receivedDateTime": "2026-05-26T04:27:43.000Z",
