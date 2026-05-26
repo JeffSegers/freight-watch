@@ -1,6 +1,40 @@
 {
-  "updated": "2026-05-26T10:50:10Z",
+  "updated": "2026-05-26T10:59:13Z",
   "emails": [
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEo7AAA=",
+      "subject": "CP",
+      "from": {
+        "emailAddress": {
+          "address": "Reinout.Puissant@hellmann.com",
+          "name": "Reinout Puissant"
+        }
+      },
+      "receivedDateTime": "2026-05-26T10:42:42.000Z",
+      "bodyPreview": "",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEo7AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "jeff",
+      "_category": "OTHER"
+    },
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEo6AAA=",
+      "subject": "2 x horses - 27.05.26 - perm export",
+      "from": {
+        "emailAddress": {
+          "address": "Tracey@eyespymyride.com",
+          "name": "Tracey"
+        }
+      },
+      "receivedDateTime": "2026-05-26T10:41:38.000Z",
+      "bodyPreview": "Good morning, Please see attached the details of 2 x horses that are being exported from BE to UK on a permanent basis. Vehicle : GG52BUY Route : Calais / Dover - PORT Date : Thursday 27.05.26",
+      "hasAttachments": true,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEo6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "jeff",
+      "_category": "AVI"
+    },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEo5AAA=",
       "subject": "Procurement Expert Rapport: Goed op weg, maar op een wankele basis",
@@ -11,7 +45,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T10:31:45.000Z",
-      "bodyPreview": "Ontdek wat werkt en wat niet. Download gratis rapport. Europese procurementleiders doen al veel goed.",
+      "bodyPreview": "Ontdek wat werkt en wat niet. Download gratis rapport\r\nView in browser",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEo5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -28,12 +62,12 @@
         }
       },
       "receivedDateTime": "2026-05-26T10:30:55.000Z",
-      "bodyPreview": "SeafoodSource News. Tuesday, 26 May, 2026. FEATURED NEWS. SalMar's strong start to 2026 in Norway.",
+      "bodyPreview": "SeafoodSource News Tuesday, 26 May, 2026 FEATURED NEWS",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEo4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
+      "_mailbox": "jeff",
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEo3AAA=",
@@ -45,11 +79,28 @@
         }
       },
       "receivedDateTime": "2026-05-26T10:19:49.000Z",
-      "bodyPreview": "Good morning. Can someone please get back to me with the questions that we had? Its been 2 weeks now and i haven't heard back from anyone regarding the API questions.",
+      "bodyPreview": "Good morning Can someone please get back to me with the questions that we had? Its been 2 weeks now and i haven't heard back from anyone regarding the API questions.",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEo3AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
+      "_category": "OTHER"
+    },
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbkAABgOhpD4Q-WQqskeWrVHUY4AAWwb5I7AAA=",
+      "subject": "RE: [Logitude World] Re: API",
+      "from": {
+        "emailAddress": {
+          "address": "jeff.segers@skyfast.be",
+          "name": "Jeff Segers"
+        }
+      },
+      "receivedDateTime": "2026-05-26T10:19:00.000Z",
+      "bodyPreview": "Good morning Can someone please get back to me with the questions that we had? Its been 2 weeks now and i haven't heard back from anyone regarding the API questions.",
+      "hasAttachments": false,
+      "isRead": true,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbkAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5I7AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
       "_category": "OTHER"
     },
     {
@@ -62,11 +113,11 @@
         }
       },
       "receivedDateTime": "2026-05-26T10:08:12.000Z",
-      "bodyPreview": "Lufthansa Cargo decreases Airfreight Surcharge to 1,25EUR/kg Dear Mr. Segers, The sum of cost components included in our Airfreight Surcharge has decreased.",
+      "bodyPreview": "Lufthansa Cargo decreases Airfreight Surcharge to 1,25EUR/kg Dear Mr. Segers, The sum of cost components included in our Airfreight Surcharge has decreased in the past weeks.",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEo2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "AWB"
     },
     {
@@ -79,7 +130,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T10:07:40.000Z",
-      "bodyPreview": "Lufthansa Cargo decreases Airfreight Surcharge to 1,25EUR/kg Dear Mr. Segers, The sum of cost components included in our Airfreight Surcharge has decreased.",
+      "bodyPreview": "Lufthansa Cargo decreases Airfreight Surcharge to 1,25EUR/kg Dear Mr. Segers, The sum of cost components included in our Airfreight Surcharge has decreased in the past weeks.",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEo1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -92,15 +143,15 @@
       "from": {
         "emailAddress": {
           "address": "NoReply.ODD@dhl.com",
-          "name": "DHL Express"
+          "name": "DHL"
         }
       },
       "receivedDateTime": "2026-05-26T09:59:57.000Z",
-      "bodyPreview": "UW AFLEVERING IS VANDAAG. Uw DHL Express zending met waybill nummer 7178976921.",
+      "bodyPreview": "UW AFLEVERING IS VANDAAG Uw DHL Express zending met waybill nummer 7178976921",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEo0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "JUNK"
     },
     {
@@ -113,11 +164,11 @@
         }
       },
       "receivedDateTime": "2026-05-26T09:58:25.000Z",
-      "bodyPreview": "Beste Jeff, Onlangs werd je Prepaid-klant bij Fluvius. We willen graag weten hoe je dit ervaren hebt.",
+      "bodyPreview": "Beste Jeff, Onlangs werd je Prepaid-klant bij Fluvius.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5ghAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "_mailbox": "pets",
       "_category": "JUNK"
     },
     {
@@ -134,8 +185,8 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5giAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "OTHER"
+      "_mailbox": "pets",
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gfAAA=",
@@ -152,7 +203,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "QUOTE"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEowAAA=",
@@ -186,7 +237,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5ggAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKCWAAA=",
@@ -198,7 +249,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T09:31:34.000Z",
-      "bodyPreview": "Hello, I am an Indian web development company specialized in: making websites, e-commerce, website redesigning and development.",
+      "bodyPreview": "Hello, I'm an Indian web development company specialized in: - making websites - e-commerce - website redesigning",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -215,7 +266,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T09:27:00.000Z",
-      "bodyPreview": "Goede morgen. De procedure om een Carnet te laten afstempelen en in te klaren is iets moeilijker dan een gewone aankomst per vliegtuig.",
+      "bodyPreview": "Goede morgen De procedure om een Carnet te laten afstempelen en in te klaren is iets moeilijker dan een gewone aankomst per vliegtuig. Ik moet daarvoor bij een Andere Dienst zijn dan voor een gewone aangifte. Normaal moet het paard ook hier zijn",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbkAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5I6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -236,8 +287,8 @@
       "hasAttachments": true,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEouAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
+      "_mailbox": "jeff",
+      "_category": "AWB"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbkAABgOhpD4Q-WQqskeWrVHUY4AAWwb5I5AAA=",
@@ -254,7 +305,7 @@
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbkAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5I5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "AVI"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gdAAA=",
@@ -271,7 +322,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
+      "_category": "AWB"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEosAAA=",
@@ -283,12 +334,12 @@
         }
       },
       "receivedDateTime": "2026-05-26T09:18:27.000Z",
-      "bodyPreview": "Hi Jeff, the number of crates is 12. The consignee contact is Isabel: +32 (0)2 477 49 91. The shipper contact is +32 (0) 11 14 07 68 Vrijsen Lina.",
+      "bodyPreview": "Hi Jeff, the number of crates is 12. The consignee contact is Isabel: +32 (0)2 477 49 91 The shipper contact is +32 (0) 11 14 07 68 Vrijsen Lina",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEosAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
+      "_mailbox": "jeff",
+      "_category": "AVI"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5geAAA=",
@@ -300,7 +351,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T09:13:47.000Z",
-      "bodyPreview": "Simulation exercise: Foot and mouth disease in Peru.",
+      "bodyPreview": "Simulation exercise: Foot and mouth disease in Peru",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5geAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -321,8 +372,8 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "OTHER"
+      "_mailbox": "pets",
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gWAAA=",
@@ -334,12 +385,12 @@
         }
       },
       "receivedDateTime": "2026-05-26T09:02:50.000Z",
-      "bodyPreview": "Good day! pls check update. China to Le Havre/Antwerp. POL: Yantian/Xiamen/Ningbo/Shanghai. $2,200 20GP valid 1st-13th June.",
+      "bodyPreview": "Good day! pls check update China to Le Havre/Antwerp Yantian/Xiamen/Ningbo/Shanghai/Xingang/Qingdao $2,200 $3,400 $3,400 1st June to 13th June",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "OTHER"
+      "_mailbox": "pets",
+      "_category": "QUOTE"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gXAAA=",
@@ -355,8 +406,8 @@
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "OTHER"
+      "_mailbox": "pets",
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKCVAAA=",
@@ -364,49 +415,15 @@
       "from": {
         "emailAddress": {
           "address": "info@eventonlinenews.be",
-          "name": "Eventonline"
+          "name": "Vestar"
         }
       },
       "receivedDateTime": "2026-05-26T09:02:32.000Z",
-      "bodyPreview": "In-house techniek voor elk event bij Vestar.",
+      "bodyPreview": "In-house techniek voor elk event bij Vestar",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
-      "_category": "OTHER"
-    },
-    {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gYAAA=",
-      "subject": "Woluwelaan hinder 26-28 mei",
-      "from": {
-        "emailAddress": {
-          "address": "Ellen.Christiaensen@SKYFAST.BE",
-          "name": "Ellen Christiaensen"
-        }
-      },
-      "receivedDateTime": "2026-05-26T08:53:08.000Z",
-      "bodyPreview": "Goeiemorgen, Voor diegene die langs daar rijden - info Vlaamse overheid: Werken Fluvius.",
-      "hasAttachments": false,
-      "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
-    },
-    {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gZAAA=",
-      "subject": "Dolle Dinsdag nu voor 6,95 via de app!",
-      "from": {
-        "emailAddress": {
-          "address": "noreply@pizzabelgium.be",
-          "name": "Pizza Hut"
-        }
-      },
-      "receivedDateTime": "2026-05-26T08:51:33.000Z",
-      "bodyPreview": "Exclusief via de Pizza Hut app. Medium Take-Out Pizza voor 6,95 op Dolle Dinsdag!",
-      "hasAttachments": false,
-      "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
       "_category": "JUNK"
     },
     {
@@ -423,7 +440,7 @@
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEolAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "OTHER"
     },
     {
@@ -440,8 +457,8 @@
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEojAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
+      "_mailbox": "jeff",
+      "_category": "AWB"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEohAAA=",
@@ -453,11 +470,11 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:32:21.000Z",
-      "bodyPreview": "Van: Challenge Reservations - GAS BE. Verzonden: dinsdag 26 mei 2026 10:25.",
+      "bodyPreview": "Van: Challenge Reservations - GAS BE",
       "hasAttachments": true,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEohAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "OTHER"
     },
     {
@@ -474,8 +491,8 @@
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
+      "_mailbox": "jeff",
+      "_category": "AWB"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoXAAA=",
@@ -487,12 +504,12 @@
         }
       },
       "receivedDateTime": "2026-05-26T07:46:55.000Z",
-      "bodyPreview": "Komen pas morgen.",
+      "bodyPreview": "Komen pas morgen",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
+      "_mailbox": "jeff",
+      "_category": "AWB"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoUAAA=",
@@ -508,7 +525,7 @@
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "OTHER"
     },
     {
@@ -525,8 +542,8 @@
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "OTHER"
+      "_mailbox": "jeff",
+      "_category": "AWB"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoQAAA=",
@@ -542,7 +559,7 @@
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "AWB"
     },
     {
@@ -559,7 +576,7 @@
       "hasAttachments": true,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
+      "_mailbox": "jeff",
       "_category": "AWB"
     }
   ]
