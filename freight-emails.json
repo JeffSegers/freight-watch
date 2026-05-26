@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T07:15:37Z",
+  "updated": "2026-05-26T07:19:05Z",
   "emails": [
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoQAAA=",
@@ -11,7 +11,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T07:13:14.000Z",
-      "bodyPreview": "Dear all, Has this shipment been sent out to BRU pls? I haven't seen any pre alert. Kindly advise",
+      "bodyPreview": "Dear all,\r\nHas this shipment been sent out to BRU pls?\r\nI haven't seen any pre alert.\r\nKindly advise",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -28,7 +28,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T06:56:45.000Z",
-      "bodyPreview": "Hello Henry, Please find our invoice for this shipment in attachment.",
+      "bodyPreview": "Hello Henry,\r\nPlease find our invoice for this shipment in attachment.",
       "hasAttachments": true,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -62,7 +62,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T06:06:30.000Z",
-      "bodyPreview": "Goedemorgen, Hierbij weer de aanbiedingen van deze week. Met dit keer 4 topmodellen",
+      "bodyPreview": "Goedemorgen, Hierbij weer de aanbiedingen van deze week. Met dit keer 4 topmodellen in de aanbieding.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -79,7 +79,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T05:55:43.000Z",
-      "bodyPreview": "Dear jeff.segers@skyfast.be, Hope you are doing well. This is Eden from OLO. We obtained your company contact information through our platform members.",
+      "bodyPreview": "Dear jeff.segers@skyfast.be, Hope you are doing well. This is Eden from OLO. We obtained your company contact information through our platform members and learned that your company has an abundant reserve of professional knowledge.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -101,7 +101,7 @@
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "OTHER"
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoMAAA=",
@@ -109,11 +109,11 @@
       "from": {
         "emailAddress": {
           "address": "info@newsletter.bruneau.be",
-          "name": "Bruneau Newsletter"
+          "name": "Bruneau"
         }
       },
       "receivedDateTime": "2026-05-26T05:18:49.000Z",
-      "bodyPreview": "Voordeelcode: BE5072 online versie",
+      "bodyPreview": "Voordeelcode: BE5072",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -130,7 +130,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T05:06:43.000Z",
-      "bodyPreview": "Dear Partner, Cargolux reacts to a recent increase in fuel prices and adapts its fuel surcharge on cargo shipments as of 01 June 2026. EUR 1.35 to EUR 1.40 per kg.",
+      "bodyPreview": "Dear Partner, Cargolux reacts to a recent increase in fuel prices and adapts its fuel surcharge on cargo shipments as of 01 June 2026. The current level of the fuel surcharge will be adjusted from EUR 1.35 to EUR 1.40 per kg.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
