@@ -1,8 +1,76 @@
 {
-  "updated": "2026-05-26T09:18:18Z",
+  "updated": "2026-05-26T09:27:33Z",
   "emails": [
     {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEopAAA=",
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEotAAA=",
+      "subject": "回复: Delivery for Product Media Air40 // AI260001318",
+      "from": {
+        "emailAddress": {
+          "address": "nicole@thecottonbag.company",
+          "name": "Nicole Gao"
+        }
+      },
+      "receivedDateTime": "2026-05-26T09:19:00.000Z",
+      "bodyPreview": "Hi Lennert, Can you pls also send the invoices together with IM4 document？",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEotAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "jeff",
+      "_category": "OTHER"
+    },
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEosAAA=",
+      "subject": "AW: Transport live animals 28 may",
+      "from": {
+        "emailAddress": {
+          "address": "moritz@BIOTRANSLOGISTICS.COM",
+          "name": "Moritz Martin"
+        }
+      },
+      "receivedDateTime": "2026-05-26T09:18:27.000Z",
+      "bodyPreview": "Hi Jeff, the number of crates is 12. The consignee contact is Isabel: +32 (0)2 477 49 91. The shipper contact is +32 (0) 11 14 07 68 Vrijsen Lina.",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEosAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "jeff",
+      "_category": "OTHER"
+    },
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEorAAA=",
+      "subject": "PER - Simulation exercise / Exercice de simulation / Ejercicio de simulacro",
+      "from": {
+        "emailAddress": {
+          "address": "woah-info-web@woah.org",
+          "name": "WOAH"
+        }
+      },
+      "receivedDateTime": "2026-05-26T09:13:47.000Z",
+      "bodyPreview": "Simulation exercise: Foot and mouth disease in Peru. Exercice de simulation: Fievre aphteuse au Perou.",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEorAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "jeff",
+      "_category": "OTHER"
+    },
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gVAAA=",
+      "subject": "Uitnodiging salon Transpro 2026",
+      "from": {
+        "emailAddress": {
+          "address": "news@phelect.news",
+          "name": "Phelect"
+        }
+      },
+      "receivedDateTime": "2026-05-26T09:10:02.000Z",
+      "bodyPreview": "Beste Klant, Phelect is aanwezig op de TRANSPRO beurs welke op 3 en 4 juni zal plaatsvinden te Waregem.",
+      "hasAttachments": false,
+      "isRead": false,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
+      "_category": "JUNK"
+    },
+    {
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gWAAA=",
       "subject": "June, FOB from China main ports to Le Havre/Antwerp -20'GP/40'HQ",
       "from": {
         "emailAddress": {
@@ -11,16 +79,16 @@
         }
       },
       "receivedDateTime": "2026-05-26T09:02:50.000Z",
-      "bodyPreview": "Good day!\r\n\r\npls check update\r\n\r\nChina to Le Havre/Antwerp\r\nPOL 20GP 40GP 40HQ Valid date\r\nYantian/ Xiamen/ Ningbo/ Shanghai/ Xingang/ Qingdao $2,200 $3,400 $3,400 1st June to 13th June",
+      "bodyPreview": "Good day! pls check update. China to Le Havre/Antwerp, 20GP, 40GP, 40HQ. Please feel free to advise your target.",
       "hasAttachments": false,
       "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEopAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
       "_category": "OTHER"
     },
     {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEooAAA=",
-      "subject": "Zonneschijn, bloemen… en gratis chocolade ☀️🍫",
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gXAAA=",
+      "subject": "Zonneschijn, bloemen en gratis chocolade",
       "from": {
         "emailAddress": {
           "address": "news@email-be.euroflorist.com",
@@ -31,21 +99,21 @@
       "bodyPreview": "Gratis chocolade bij geselecteerde zomerboeketten.",
       "hasAttachments": false,
       "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEooAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "OTHER"
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
+      "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKCVAAA=",
-      "subject": "\"Technische ondersteuning zonder zorgen\"",
+      "subject": "Technische ondersteuning zonder zorgen",
       "from": {
         "emailAddress": {
           "address": "info@eventonlinenews.be",
-          "name": "EventOnlineNews"
+          "name": "Vestar"
         }
       },
       "receivedDateTime": "2026-05-26T09:02:32.000Z",
-      "bodyPreview": "In-house techniek voor elk event bij Vestar",
+      "bodyPreview": "In-house techniek voor elk event bij Vestar.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -53,7 +121,7 @@
       "_category": "OTHER"
     },
     {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEonAAA=",
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gYAAA=",
       "subject": "Woluwelaan hinder 26-28 mei",
       "from": {
         "emailAddress": {
@@ -62,16 +130,16 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:53:08.000Z",
-      "bodyPreview": "Goeiemorgen,\r\n\r\nVoor diegene die langs daar rijden - info Vlaamse overheid: Werken Fluvius: tijdelijk extra verkeershinder Van dinsdag 26 tot en met donderdag 28 mei",
+      "bodyPreview": "Goeiemorgen, Voor diegene die langs daar rijden. Werken Fluvius: tijdelijk extra verkeershinder van 26 tot 28 mei.",
       "hasAttachments": false,
       "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEonAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
       "_category": "OTHER"
     },
     {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEomAAA=",
-      "subject": "💥Dolle Dinsdag nu voor €6,95 via de app!",
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gZAAA=",
+      "subject": "Dolle Dinsdag nu voor 6,95 via de app",
       "from": {
         "emailAddress": {
           "address": "noreply@pizzabelgium.be",
@@ -79,11 +147,11 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:51:33.000Z",
-      "bodyPreview": "Exclusief via de Pizza Hut app. Medium Take-Out Pizza voor €6,95 op Dolle Dinsdag!",
+      "bodyPreview": "Exclusief via de Pizza Hut app. Medium Take-Out Pizza voor 6,95 op Dolle Dinsdag!",
       "hasAttachments": false,
       "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEomAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
       "_category": "JUNK"
     },
     {
@@ -96,7 +164,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:51:00.000Z",
-      "bodyPreview": "Preferred Language: English. Quotenumber 20260526105056. Cargo Description: vodkabet Personal effects? Dimension of Cargo.",
+      "bodyPreview": "Quotenumber 20260526105056. Cargo Description: russian casino spam text. Personal effects? Dimension of Cargo listed.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -113,16 +181,16 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:47:04.000Z",
-      "bodyPreview": "Goeiemorgen,\r\n\r\nVoor het geval je dit moet weten, maar niet gekregen hebt.\r\n\r\nGroetjes Ellen\r\n\r\nFrom: Air France KLM Martinair Cargo - Benelux",
+      "bodyPreview": "Goeiemorgen, Voor het geval je dit moet weten, maar niet gekregen hebt. From: Air France KLM Martinair Cargo - Benelux",
       "hasAttachments": false,
-      "isRead": false,
+      "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEolAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
       "_category": "AWB"
     },
     {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEokAAA=",
-      "subject": "⏱ ΤΕΛΕΥΤΑΙΕΣ ΩΡΕΣ: αναβαθμίστε τώρα και κερδίστε έκπτωση 70%",
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gaAAA=",
+      "subject": "MyHeritage - upgrade now 70% off",
       "from": {
         "emailAddress": {
           "address": "announce2@myheritage.com",
@@ -130,24 +198,24 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:44:50.000Z",
-      "bodyPreview": "Newsletters promo Greek text",
+      "bodyPreview": "Upgrade now and save 70%. Explore more ways to discover your roots.",
       "hasAttachments": false,
       "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEokAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
-      "_category": "JUNK"
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKCTAAA=",
-      "subject": "Quelques œuvres actuellement disponibles",
+      "subject": "Quelques oeuvres actuellement disponibles",
       "from": {
         "emailAddress": {
           "address": "sculpture-bronze-choisnet@aprem-kg.com",
-          "name": "Choisnet"
+          "name": "Sculpture Bronze"
         }
       },
       "receivedDateTime": "2026-05-26T08:44:35.000Z",
-      "bodyPreview": "Sculptures en bronze. Bonjour, Je vous invite à découvrir une sélection de mes sculptures en bronze.",
+      "bodyPreview": "Sculptures en bronze destinees a des lieux de vie et de travail.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -164,16 +232,16 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:44:12.000Z",
-      "bodyPreview": "Hi Martijn,\r\n\r\nDelivery date was scheduled for today. Is it still the case? Please notify us on delivery so we can discharge T1.",
+      "bodyPreview": "Hi Martijn, Delivery date was scheduled for today. Is it still the case? Please notify us on delivery so we can discharge T1.",
       "hasAttachments": false,
-      "isRead": false,
+      "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEojAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
       "_category": "OTHER"
     },
     {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoiAAA=",
-      "subject": "Les enfants et les jeunes à la croisée des secteurs • Crisisbestendigheid van het contractenrecht",
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gbAAA=",
+      "subject": "Les enfants et les jeunes a la croisee des secteurs",
       "from": {
         "emailAddress": {
           "address": "noreply@newsvestiaire.be",
@@ -181,24 +249,24 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:40:22.000Z",
-      "bodyPreview": "View in browser - newsletter legal topics",
+      "bodyPreview": "Les enfants et les jeunes a la croisee des secteurs. Crisisbestendigheid van het contractenrecht.",
       "hasAttachments": false,
       "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoiAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gbAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
       "_category": "JUNK"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKCSAAA=",
-      "subject": "Quelques œuvres actuellement disponibles",
+      "subject": "Quelques oeuvres actuellement disponibles (2)",
       "from": {
         "emailAddress": {
           "address": "sculpture-bronze-choisnet@aprem-kg.com",
-          "name": "Choisnet"
+          "name": "Sculpture Bronze"
         }
       },
       "receivedDateTime": "2026-05-26T08:34:29.000Z",
-      "bodyPreview": "Sculptures en bronze destinées à des lieux de vie et de travail.",
+      "bodyPreview": "Sculptures en bronze destinees a des lieux de vie et de travail. Bonjour, Je vous invite a decouvrir une selection.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -215,12 +283,12 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:32:21.000Z",
-      "bodyPreview": "Van: Challenge Reservations - GAS BE. AWB prefix moving from 700 to 752 as from 15 June.",
+      "bodyPreview": "Van: Challenge Reservations - GAS BE. Verzonden: dinsdag 26 mei 2026 10:25. Challenge Prefix change as from 15/06 Moving 700 to 752.",
       "hasAttachments": true,
-      "isRead": false,
+      "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEohAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "AWB"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5ANAAA=",
@@ -232,7 +300,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:20:14.000Z",
-      "bodyPreview": "Bekijk het van de zonnige kant. Personaliseer zonnebrillen met jouw kleuren en logo's.",
+      "bodyPreview": "Bekijk het van de zonnige kant. Hallo, Zoek je nog een makkelijke gadget voor deze zomer uit te delen?",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5ANAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -241,7 +309,7 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q-WQqskeWrVHUY4AAaPFKCRAAA=",
-      "subject": "Voyage au centre de la Terre, une expédition à ne pas manquer ! 🤩",
+      "subject": "Voyage au centre de la Terre, une expedition a ne pas manquer!",
       "from": {
         "emailAddress": {
           "address": "info@grotte-de-han.be",
@@ -249,7 +317,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:18:53.000Z",
-      "bodyPreview": "Ce 6 juin, plongez au coeur des mysteres souterrains.",
+      "bodyPreview": "Ce 6 juin, plongez au coeur des mysteres souterrains. Et si, le temps d'une journee, vous quittiez la surface.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -266,7 +334,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:18:27.000Z",
-      "bodyPreview": "We are proud to announce new wide body destinations on Avianca. Caracas/CCS Direct flight EX BOG as from June 2026.",
+      "bodyPreview": "We are proud to announce new wide body destinations on Avianca. Caracas/CCS, Santa Cruz/VVI, San Salvador/SAL Direct flight.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -283,7 +351,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:16:51.000Z",
-      "bodyPreview": "Laatste plaatsen: Motiverende verloning leidt tot uitmuntende prestaties",
+      "bodyPreview": "Laatste plaatsen: Motiverende verloning leidt tot uitmuntende prestaties. Bekijk online.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -317,7 +385,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:10:16.000Z",
-      "bodyPreview": "Update vanuit de markt. Nieuwbrief niet goed leesbaar?",
+      "bodyPreview": "Update vanuit de markt. Nieuwsbrief Service2Fruit. In tegenstelling tot bij Conference raakt de mogelijkheid om Elstar af te zetten.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -330,11 +398,11 @@
       "from": {
         "emailAddress": {
           "address": "jaarbeurs@expoints.nl",
-          "name": "Jaarbeurs"
+          "name": "Cybersec Europe"
         }
       },
       "receivedDateTime": "2026-05-26T08:09:21.000Z",
-      "bodyPreview": "Dear Jeff, Thank you for visiting Cybersec Europe. Please give us your feedback.",
+      "bodyPreview": "Thank you for visiting Cybersec Europe. In order to improve the overall experience of our events, we would like to hear your feedback.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -351,7 +419,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:07:40.000Z",
-      "bodyPreview": "Preferred Language: English. Quotenumber 20260526100731. Cargo Description: Personal effects? Dimension of Cargo.",
+      "bodyPreview": "Preferred Language English. Quotenumber 20260526100731. Personal effects. Dimension of Cargo with pieces and weights.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -360,7 +428,7 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gTAAA=",
-      "subject": "Bel&Bo bracht haar rebranding tot leven in Asiat Park — ontdek nu meer in hét MICE-nieuws van mei",
+      "subject": "Bel&Bo bracht haar rebranding tot leven in Asiat Park - MICE-nieuws van mei",
       "from": {
         "emailAddress": {
           "address": "info@micemagazine-news.com",
@@ -385,7 +453,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:06:41.000Z",
-      "bodyPreview": "From traveling with ease to coffee above the clouds",
+      "bodyPreview": "From traveling with ease to coffee above the clouds.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -402,12 +470,12 @@
         }
       },
       "receivedDateTime": "2026-05-26T08:05:54.000Z",
-      "bodyPreview": "Dag Joost,\r\n\r\nStaat genoteerd. shipment import cargo",
+      "bodyPreview": "Dag Joost, Staat genoteerd. Met vriendelijke groeten, Lennert Smout I.F.A. Skyfast N.V.",
       "hasAttachments": false,
-      "isRead": false,
+      "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "AWB"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoXAAA=",
@@ -415,19 +483,19 @@
       "from": {
         "emailAddress": {
           "address": "joost@vermeulen.be",
-          "name": "Joost Vermeulen"
+          "name": "Joost"
         }
       },
       "receivedDateTime": "2026-05-26T07:46:55.000Z",
-      "bodyPreview": "Komen pas morgen. shipment import cargo",
+      "bodyPreview": "Komen pas morgen. Met vriendelijke groet.",
       "hasAttachments": false,
-      "isRead": false,
+      "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "AWB"
+      "_category": "OTHER"
     },
     {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q-WQqskeWrVHUY4AAaPFEoWAAA=",
+      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5gcAAA=",
       "subject": "SPOT RATE TO EUR",
       "from": {
         "emailAddress": {
@@ -436,11 +504,11 @@
         }
       },
       "receivedDateTime": "2026-05-26T07:39:54.000Z",
-      "bodyPreview": "Dear Shipping Professional. Here are the latest updates regarding our contract space and spot rates to Europe.",
+      "bodyPreview": "Good day. Here are the latest updates regarding our contract space and spot rates to Europe. Sea or air freight services available.",
       "hasAttachments": false,
       "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "jeff",
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5gcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "_mailbox": "pets",
       "_category": "OTHER"
     },
     {
@@ -453,7 +521,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T07:37:02.000Z",
-      "bodyPreview": "Dear Customer, the fuel surcharge will be updated to EUR 0.55 per CWT as of 1 June 2026.",
+      "bodyPreview": "Dear Customer, As of 1 June 2026, the fuel surcharge will be updated to 0.55 EUR per CWT. This applies to all published and contract rates.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5AMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -470,7 +538,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T07:35:34.000Z",
-      "bodyPreview": "Hi,\r\n\r\nKan je mij aub wat meer uitleg geven waarom het niet op tijd klaar zal zijn?",
+      "bodyPreview": "Hi, Kan je mij aub wat meer uitleg geven waarom het niet op tijd klaar zal zijn? Dan kan ik terugkoppelen naar de klant.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -487,12 +555,12 @@
         }
       },
       "receivedDateTime": "2026-05-26T07:35:08.000Z",
-      "bodyPreview": "Dag Joost, De overige 26 stuks zijn nog niet gepunterd. shipment cargo import",
+      "bodyPreview": "Dag Joost, De overige 26 stuks zijn nog niet gepunterd. We houden u op de hoogte.",
       "hasAttachments": false,
       "isRead": true,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbiAABgOhpD4Q%2FWQqskeWrVHUY4AAaPFEoTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "jeff",
-      "_category": "AWB"
+      "_category": "OTHER"
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIbkAABgOhpD4Q-WQqskeWrVHUY4AAWwb5I4AAA=",
@@ -521,7 +589,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T07:28:44.000Z",
-      "bodyPreview": "Preferred Language: English. Quotenumber 20260526092840. Cargo Description: web-site vodkabet casino",
+      "bodyPreview": "Preferred Language English. Quotenumber 20260526092840. Cargo Description: casino spam text. Dimension of Cargo listed.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -547,7 +615,7 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5ALAAA=",
-      "subject": "🏌Golfen Jeff, iets voor jou?",
+      "subject": "Golfen Jeff, iets voor jou?",
       "from": {
         "emailAddress": {
           "address": "mathias.huybens@voka.be",
@@ -555,7 +623,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T07:20:38.000Z",
-      "bodyPreview": "Schrijf je in voor een van onze Golf Tornooien!",
+      "bodyPreview": "Schrijf je in voor een van onze Golf Tornooien! Kom jij 1 of 24 juni 2026 meegolfen met andere ondernemers?",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5ALAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -602,7 +670,7 @@
       "from": {
         "emailAddress": {
           "address": "louise.vancoillie@minfin.fed.be",
-          "name": "Louise Vancoillie"
+          "name": "Louise Van Coillie"
         }
       },
       "receivedDateTime": "2026-05-26T06:33:55.000Z",
@@ -623,7 +691,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T06:06:30.000Z",
-      "bodyPreview": "Hierbij weer de aanbiedingen van deze week. Met dit keer 4 topmodellen in de aanbieding.",
+      "bodyPreview": "Goedemorgen, Hierbij weer de aanbiedingen van deze week. Met dit keer 4 topmodellen.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -640,7 +708,7 @@
         }
       },
       "receivedDateTime": "2026-05-26T05:55:43.000Z",
-      "bodyPreview": "Dear jeff.segers@skyfast.be, Hope you are doing well. This is Eden from OLO.",
+      "bodyPreview": "Hope you are doing well. This is Eden from OLO. We obtained your company contact through our platform. Global Logistics Conference.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAACt8AABgOhpD4Q%2FWQqskeWrVHUY4AAaPFKCNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
@@ -649,37 +717,20 @@
     },
     {
       "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5ADAAA=",
-      "subject": "Deze week: 15% korting op alle gekleurde kabelbinders, kabelbinder toebehoren en klittenband",
+      "subject": "Deze week: 15% korting op alle gekleurde kabelbinders",
       "from": {
         "emailAddress": {
           "address": "info@kabelbinders.nl",
-          "name": "Kabelbinders"
+          "name": "Kabelbinders.nl"
         }
       },
       "receivedDateTime": "2026-05-26T05:30:34.000Z",
-      "bodyPreview": "Maak je voorraad op orde met tijdelijk extra voordeel",
+      "bodyPreview": "Maak je voorraad op orde met tijdelijk extra voordeel. 15% korting op kabelbinders.",
       "hasAttachments": false,
       "isRead": false,
       "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5ADAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "_mailbox": "pets",
       "_category": "OTHER"
-    },
-    {
-      "id": "AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q-WQqskeWrVHUY4AAWwb5AEAAA=",
-      "subject": "Kruidenmolen FinaMill: één molen, al uw kruiden binnen handbereik",
-      "from": {
-        "emailAddress": {
-          "address": "info@newsletter.bruneau.be",
-          "name": "Bruneau"
-        }
-      },
-      "receivedDateTime": "2026-05-26T05:18:49.000Z",
-      "bodyPreview": "Voordeelcode: BE5072. Gratis levering vanaf 79 EUR excl. btw.",
-      "hasAttachments": false,
-      "isRead": false,
-      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGYyNTYxNmVhLWUwMDQtNGY1My1iNDQ4LWY2NTY3YmJmZDE2MwBGAAAAAADmcko0CLbjRq8mRX2vnOsEBwCcMFSFepnvTYbHPq1wBAXWAAAAAIblAABgOhpD4Q%2FWQqskeWrVHUY4AAWwb5AEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "_mailbox": "pets",
-      "_category": "JUNK"
     }
   ]
 }
